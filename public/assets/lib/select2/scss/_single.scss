@@ -1,0 +1,34 @@
+.select2-selection--single {
+  box-sizing: border-box;
+
+  cursor: pointer;
+  display: block;
+
+  height: 28px;
+
+  user-select: none;
+  -webkit-user-select: none;
+
+  .select2-selection__rendered {
+    display: block;
+    padding-inline-start: 8px;
+    padding-inline-end: 20px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .select2-selection__clear {
+    position: relative;
+  }
+}
+
+&[dir="rtl"] {
+  .select2-selection--single {
+    .select2-selection__rendered {
+      padding-inline-end: 8px;
+      padding-inline-start: 20px;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_181" data-name="Rectangle 181" width="24" height="24" transform="translate(697.498 44)"/>
+    </clipPath>
+  </defs>
+  <g id="Ico_Cancel" transform="translate(-697.498 -44)" clip-path="url(#clip-path)">
+    <path id="cross_2_" data-name="cross (2)" d="M15.805.2h0a.667.667,0,0,0-.943,0L8,7.058,1.138.2A.667.667,0,0,0,.2.2h0a.667.667,0,0,0,0,.943L7.058,8,.2,14.862a.667.667,0,0,0,0,.943h0a.667.667,0,0,0,.943,0L8,8.943l6.862,6.862a.667.667,0,0,0,.943,0h0a.667.667,0,0,0,0-.943L8.943,8l6.862-6.862a.667.667,0,0,0,0-.943Z" transform="translate(701.498 48)"/>
+  </g>
+</svg>

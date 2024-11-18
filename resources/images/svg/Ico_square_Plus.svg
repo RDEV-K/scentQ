@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_76" data-name="Rectangle 76" width="20" height="20" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Ico_Plus" clip-path="url(#clip-path)">
+    <g id="add_-cross_-plus_-sign" data-name="add,-cross,-plus,-sign" transform="translate(-0.001 0)">
+      <path id="Path" d="M14.167,3.333V12.5h9.167v1.667H14.167v9.167H12.5V14.167H3.333V12.5H12.5V3.333Z" transform="translate(-3.333 -3.333)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

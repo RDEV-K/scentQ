@@ -1,0 +1,60 @@
+@import "functions";
+@import "variables";
+@import "mixins";
+
+.page-section {
+  padding-bottom: 100px;
+
+  .section-image {
+    width: 100%;
+    height: 500px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  h1 {
+    color: $black;
+    font-size: 40px;
+    line-height: 50px;
+    font-family: 'TT Norms Pro', sans-serif;
+    text-transform: capitalize;
+    margin: 1.5rem 0 2rem 0;
+  }
+
+  p {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 1rem;
+    color: #313131;
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .page-section {
+    padding-bottom: 60px;
+
+    .section-image {
+      height: 400px;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .page-section {
+    padding-bottom: 35px;
+
+    .section-image {
+      height: 350px;
+    }
+
+    h1 {
+      color: $black;
+      font-size: 30px;
+      line-height: 40px;
+      margin: 1.5rem 0 2rem 0;
+    }
+  }
+}

@@ -1,0 +1,182 @@
+@import "functions";
+@import "variables";
+@import "mixins";
+
+.gift-section {
+  padding: 84px 0 100px 0;
+}
+
+.titile-section {
+  padding-bottom: 38px;
+
+  h1.title {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    color: $black;
+  }
+
+  p.subtitle {
+    text-transform: capitalize;
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    color: #313131;
+  }
+}
+
+.gift-subs-card {
+  text-align: center;
+  padding: 1rem 0;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+
+  h3 {
+    font-family: "TT Norms Pro", sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+    color: $black;
+  }
+
+  .img-card {
+    width: 100%;
+    height: 240px;
+    margin: 1rem 0;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  p {
+    font-size: 1rem;
+    color: #313131;
+    max-width: 325px;
+    margin: 0 auto;
+  }
+
+  a.btn {
+    margin-top: 1rem;
+  }
+
+  &:hover {
+    border-color: $pink-1;
+  }
+}
+
+h2.section-subheader {
+  font-family: "TT Norms Pro", sans-serif;
+  color: $black;
+  font-size: 35px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.choose-card {
+  background: $white;
+  border: 1px solid transparent;
+
+  &:hover {
+    border-color: $pink-1;
+  }
+}
+
+.modal-body {
+  h3.modal-header-text {
+    text-align: center;
+    font-family: "TT Norms Pro", sans-serif;
+    font-size: 20px;
+    color: $black;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+  }
+
+  .navigate {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 8px 16px;
+    border-radius: 2.5rem;
+    color: $black;
+    background: #ffbaba;
+
+    &.navigate-left {
+      left: 0;
+      transform: translateX(-125%);
+    }
+
+    &.navigate-right {
+      right: 0;
+      transform: translateX(125%);
+    }
+  }
+
+  .back-next-btns {
+    gap: 1rem;
+    flex-flow: row wrap;
+  }
+}
+
+.card-occasion-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.choose-subs-card {
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: $pink-1;
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .gift-section {
+    padding: 45px 0 60px 0;
+  }
+
+  .titile-section {
+    padding-bottom: 20px;
+
+    h1.title {
+      font-size: 40px;
+      line-height: 55px;
+    }
+
+    p.subtitle {
+      font-size: 16px;
+      line-height: normal;
+    }
+  }
+
+  .gift-subs-card {
+    h3 {
+      font-size: 20px;
+      line-height: 27px;
+      color: $black;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .gift-section {
+    padding: 20px 0 34px 0;
+  }
+
+  .titile-section {
+    padding-bottom: 14px;
+
+    h1.title {
+      font-size: 35px;
+      line-height: 45px;
+    }
+  }
+
+  h2.section-subheader {
+    font-size: 25px;
+    line-height: normal;
+  }
+}

@@ -1,0 +1,838 @@
+@import "functions";
+@import "variables";
+@import "mixins";
+
+// home top header
+
+.section-header-bg {
+  max-height: 737px;
+  position: relative;
+  z-index: -5;
+}
+
+.section-header-bg::before {
+  content: "";
+  position: absolute;
+  // background-image: url("~/images/svg/paint-strokes.svg");
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-position: top right;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+
+.section-header-bg::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  //background-image: url("../images/svg/Paint_Stroke_Bottom.svg");
+  width: 768px;
+  height: 768px;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  z-index: -1;
+  transform: rotate(270deg) scaleY(-1);
+}
+
+// home top bar
+.top-bar {
+  a.btn {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      margin: 0;
+    }
+  }
+}
+
+// home top header
+
+// home header content
+.home-header-content {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+
+.home-header-content p {
+  margin-bottom: 50px;
+}
+
+// home header content
+
+// home feature section
+
+.home-feature-section {
+  //height: 150px;
+  //margin-top: -75px;
+  //position: relative;
+  //z-index: 1;
+  transform: translateY(-50%);
+
+  .feature-wrapper {
+    box-shadow: 0 16px 16px 0 rgb(0 0 0 / 4%);
+  }
+
+  .single-feature {
+    justify-content: center;
+    gap: 12px;
+
+    .feature-content {
+      margin: 0;
+    }
+
+    h4 {
+      font-family: "TT Norms Pro", sans-serif;
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+}
+
+// collection section
+.collection-section {
+  padding-top: 72px;
+  padding-bottom: 86px;
+}
+
+.capsule {
+  padding-top: 82px;
+  padding-bottom: 103px;
+}
+
+// home feature section
+
+.retake-btn // home shipping section
+
+.home-shipment {
+  h2 {
+    text-align: start;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-stretch: normal;
+    font-size: 50px;
+    font-family: "TT Norms Pro", sans-serif;
+    margin-bottom: 21px;
+  }
+
+  h2+h6 {
+    text-align: start;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+    font-family: 'TT Norms Pro', sans-serif;
+    margin: 0;
+  }
+
+  h2+h6 span {
+    text-align: start;
+    letter-spacing: 0px;
+    color: #5d5d5d;
+    text-transform: capitalize;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 500;
+    font-stretch: normal;
+    font-size: 25px;
+    line-height: 35px;
+    font-family: "TT Norms Pro", sans-serif;
+  }
+}
+
+.shipping-bottom-part span {
+  text-align: start;
+  letter-spacing: 0px;
+  color: #5d5d5d;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 20px;
+  line-height: 35px;
+  margin-inline-end: 7px;
+}
+
+.shipping-bottom-part span+a {
+  text-align: start;
+  text-decoration: underline;
+  letter-spacing: 0px;
+  color: #000000;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+// home shipping section
+
+// shipping card
+.single-Shipping-card .img-thumbnail {
+  max-width: 104px;
+  padding: 15px;
+}
+
+.single-Shipping-card-wrapper {
+  margin: 20px 0 22px 0;
+}
+
+.single-Shipping-card {
+  padding: 20px 0;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 16px 16px #0000000d;
+}
+
+.Shipping-card-content {
+  margin-inline-start: 24px;
+}
+
+.Shipping-card-content h4 {
+  text-align: start;
+
+  letter-spacing: 0px;
+  color: #000000;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: bold;
+  font-stretch: normal;
+  font-size: 20px;
+  line-height: 27px;
+  font-family: "TT Norms Pro", sans-serif;
+}
+
+.Shipping-card-content h4+span {
+  text-align: start;
+  letter-spacing: 0px;
+  color: #959595;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+// shipping card
+
+// home curated brands
+.home.section-padding {
+  padding: 77px 0 80px;
+}
+
+// home curated brands
+
+// top rated
+// top rated section
+.home.top-rated-products {
+  background: $white;
+}
+
+// home top rated products
+.top-rated-product-img {
+  width: 66px;
+  height: 66px;
+  display: grid;
+  place-items: center;
+}
+
+.top-rated-product-content h6 {
+  text-align: start;
+  letter-spacing: 0px;
+  color: #000000;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: bold;
+  font-stretch: normal;
+  font-size: 20px;
+  line-height: 27px;
+  font-family: 'TT Norms Pro', sans-serif;
+  margin: 0;
+}
+
+.top-rated-product-content h6+span {
+  text-align: start;
+  letter-spacing: 0px;
+  color: #313131;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-family: 'TT Norms Pro', sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.single-top-rated-product {
+  background: #f9f9f9;
+  padding: 20px;
+  margin-top: 24px;
+
+  .btn {
+    width: 47px;
+    height: 47px;
+  }
+}
+
+.top-rated-product-content {
+  margin-inline-start: 10px;
+}
+
+// home top rated products
+
+// home trending notes
+.home.trending-notes {
+  background: $white;
+
+  .collection-section-heading h2 {
+    font-family: 'TT Norms Pro', sans-serif;
+    margin-bottom: 5px;
+  }
+
+  .collection-section-heading p {
+    font-family: 'TT Norms Pro', sans-serif;
+  }
+}
+
+.trending-notes button.carousel-btn {
+  transform: translateY(125%);
+}
+
+.trending-notes {
+  .slick-dots {
+    margin-bottom: 0;
+  }
+}
+
+// 'profile nav-menu sticky-top' has the same z-index
+// so give the mobile header more power 🔥
+.home.mobile-header {
+  z-index: 1050;
+}
+
+// home trending notes
+
+.home-shipment {
+  padding-bottom: 94px;
+
+  h2 {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 50px;
+    line-height: 75px;
+    color: $black;
+  }
+
+  h6 {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 22px;
+    line-height: 35px;
+
+    span {
+      font-family: 'TT Norms Pro', sans-serif;
+    }
+  }
+
+  .edit-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    img {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .shipping-bottom-part {
+    margin-top: 18px;
+
+    a {
+      font-family: 'TT Norms Pro', sans-serif;
+      color: $pink-1;
+    }
+  }
+
+  .single-Shipping-card {
+    box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.04);
+  }
+}
+
+.single-Shipping-card {
+  padding: 30px;
+  box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.04);
+}
+
+.Shipping-card-content h4 {
+  font-family: 'TT Norms Pro', sans-serif;
+}
+
+.Shipping-card-content h4+span {
+  font-family: 'TT Norms Pro', sans-serif;
+  font-size: 17px;
+  color: #959595;
+}
+
+// 42% of our subscriber prefer 2 monthly scents!
+.subscriber-prefer {
+  padding: 78px 0 100px 0;
+  border-top: 1px solid #e9e9e9;
+
+  h2.title {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 50px;
+    line-height: 75px;
+    color: $black;
+    text-transform: capitalize;
+    margin-bottom: 0;
+  }
+
+  p.subtitle {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+    color: #5d5d5d;
+    margin: 4px 0 76px 0;
+  }
+}
+
+.subscriber-prefer-card {
+  height: 100%;
+  padding: 50px 30px 26px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: $white;
+  border: 2px solid transparent;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+  position: relative;
+
+  &.bordered {
+    border: 2px solid $pink-1;
+  }
+
+  span.tag {
+    position: absolute;
+    top: 0;
+    left: 44px;
+    transform: translateY(-50%);
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      top: -2px;
+      width: 16px;
+      height: 50%;
+      background: #c23b55;
+    }
+
+    &::before {
+      left: -16px;
+      clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    }
+
+    &::after {
+      right: -16px;
+      clip-path: polygon(0 100%, 100% 100%, 0 0);
+    }
+  }
+
+  .info {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    flex-flow: wrap-reverse;
+
+    p.per-month {
+      font-family: "TT Norms Pro", sans-serif;
+      font-size: 25px;
+      line-height: 35px;
+      color: #5d5d5d;
+      margin-bottom: 0;
+    }
+
+    h3.price-per-product {
+      font-family: 'TT Norms Pro', sans-serif;
+      font-size: 35px;
+      line-height: 35px;
+      color: $black;
+      margin: 10px 0 16px 0;
+    }
+
+    p.pricePlan {
+      font-family: "TT Norms Pro", sans-serif;
+      font-size: 20px;
+      line-height: 30px;
+      color: #5850c9;
+      margin-bottom: 0;
+    }
+
+    .clipped {
+      width: 82px;
+      height: 82px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      font-family: 'TT Norms Pro', sans-serif;
+      font-size: 16px;
+      line-height: normal;
+      color: $white;
+      background: $pink-1;
+      clip-path: polygon(50% 0%,
+          83% 12%,
+          100% 43%,
+          94% 78%,
+          68% 100%,
+          32% 100%,
+          6% 78%,
+          0% 43%,
+          17% 12%);
+
+      &.green {
+        background: #34895c;
+      }
+
+      &.orange {
+        background: #fe6130;
+      }
+    }
+  }
+
+  a.btn-continue {
+    margin-top: 30px;
+  }
+}
+
+// responsive - tablet
+@include media-breakpoint-down(lg) {
+  .home-feature-section {
+    height: 200px;
+    margin-top: -100px;
+    position: relative;
+    z-index: 1;
+
+    .single-feature {
+      height: 100%;
+      justify-content: flex-start;
+      align-items: center;
+
+      .feature-content {
+        margin: 0;
+      }
+
+      h4 {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 20px;
+        margin-bottom: 0;
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+
+  .single-top-rated-product {
+    a.btn {
+      width: 35px;
+      height: 35px;
+      margin-inline-start: 4px;
+    }
+  }
+
+  .top-rated-product-img {
+    width: 56px;
+    height: 56px;
+  }
+
+  .top-rated-product-content h6 {
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'TT Norms Pro', sans-serif;
+  }
+
+  .top-rated-product-content h6+span {
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .home.trending-notes {
+    .collection-section-heading h2 {
+      font-size: 40px;
+      line-height: 50px;
+    }
+
+    .collection-section-heading p {
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+
+  .trending-notes button.carousel-btn {
+    transform: translateY(100%);
+  }
+
+  .home-shipment {
+    padding-top: 0;
+    padding-bottom: 57px;
+    margin-top: -55px;
+
+    h2 {
+      font-family: 'TT Norms Pro', sans-serif;
+      font-size: 40px;
+      line-height: 60px;
+    }
+
+    .Shipping-card-content h4 {
+      font-family: 'TT Norms Pro', sans-serif;
+      font-size: 18px;
+      line-height: 25px;
+    }
+
+    .Shipping-card-content h4+span {
+      font-size: 16px;
+    }
+  }
+
+  .subscriber-prefer {
+    padding: 40px 0 60px 0;
+
+    h2.title {
+      font-family: 'TT Norms Pro', sans-serif;
+      font-size: 40px;
+      line-height: 60px;
+    }
+
+    p.subtitle {
+      font-size: 22px;
+      line-height: 35px;
+      margin: 4px 0 52px 0;
+    }
+  }
+
+  .subscriber-prefer-card {
+    padding: 30px 20px 20px 20px;
+
+    .info {
+      display: flex;
+
+      p.per-month {
+        font-size: 22px;
+        line-height: 27px;
+      }
+
+      h3.price-per-product {
+        font-size: 30px;
+        line-height: 30px;
+      }
+
+      p.pricePlan {
+        font-size: 18px;
+        line-height: 27px;
+      }
+
+      .clipped {
+        width: 82px;
+        height: 82px;
+      }
+    }
+
+    a.btn-continue {
+      margin-top: 24px;
+    }
+  }
+}
+
+// responsive tablet
+@include media-breakpoint-down(md) {
+  .collection-section {
+    padding-top: 40px;
+    padding-bottom: 64px;
+  }
+
+  .curated-brands {
+    &.section-padding {
+      padding: 77px 0 40px;
+    }
+  }
+
+  .top-rated-products {
+    padding-top: 24px;
+    padding-bottom: 32px;
+  }
+
+  .single-top-rated-product {
+    padding: 1rem;
+    margin-top: 10px;
+  }
+
+  .top-rated-product-content h6+span {
+    font-size: 14px;
+  }
+
+  .home.trending-notes {
+    .collection-section-heading h2 {
+      font-family: "TT Norms Pro", sans-serif;
+      font-size: 25px;
+      line-height: 25px;
+    }
+
+    .collection-section-heading p {
+      font-size: 15px;
+      line-height: 22px;
+    }
+  }
+
+  .home-shipment {
+    padding-top: 28px;
+    padding-bottom: 28px;
+    margin-top: 0;
+
+    h2 {
+      font-family: "TT Norms Pro", sans-serif;
+      font-size: 25px;
+      line-height: 30px;
+      margin-bottom: 12px;
+    }
+
+    h2+h6 {
+      font-family: 'TT Norms Pro', sans-serif;
+      font-size: 15px;
+      line-height: 23px;
+      margin-bottom: 20px;
+    }
+
+    h2+h6 span {
+      font-size: 15px;
+      line-height: 23px;
+    }
+
+    .Shipping-card-content {
+      margin-inline-start: 12px;
+
+      h4 {
+        font-family: "TT Norms Pro", sans-serif;
+        margin-bottom: 0;
+      }
+
+      h4+span {
+        font-size: 14px;
+        line-height: 30px;
+      }
+    }
+
+    .single-Shipping-card {
+      padding: 1rem;
+      margin-bottom: 10px;
+      box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.04);
+    }
+
+    .shipping-bottom-part {
+      margin-top: 2px;
+    }
+  }
+
+  .single-Shipping-card-wrapper {
+    margin: 0px 0 14px 0;
+  }
+
+  .subscriber-prefer {
+    padding: 26px 0 34px 0;
+
+    h2.title {
+      font-family: "TT Norms Pro", sans-serif;
+      font-size: 25px;
+      line-height: 30px;
+    }
+
+    p.subtitle {
+      font-size: 15px;
+      line-height: 23px;
+      margin: 4px 0 44px 0;
+    }
+  }
+}
+
+// Responsive  -  Mobile
+@include media-breakpoint-down(sm) {
+  .top-bar {
+    gap: 1rem;
+    padding: 1rem;
+    background: $pink-1;
+
+    p {
+      font-size: 13px;
+    }
+
+    a.btn {
+      width: 118px;
+      margin: 0;
+      background: $white;
+      color: $pink-1;
+
+      img {
+        display: none;
+      }
+    }
+  }
+
+  .collection-section {
+    padding-top: 20px;
+    padding-bottom: 32px;
+  }
+
+  .retake-btn {
+    background: $black;
+    color: $white;
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    font-family: "TT Norms Pro", sans-serif;
+    font-size: 16px;
+
+    img {
+      display: none;
+    }
+  }
+}

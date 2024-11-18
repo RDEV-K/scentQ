@@ -1,0 +1,271 @@
+@import "functions";
+@import "variables";
+@import "mixins";
+
+// tracking delivery section style
+
+.tracking-delivery {
+  padding: 50px 0 60px 0;
+}
+
+.tracking-hero {
+  margin-bottom: 62px;
+
+  h4 {
+    color: #000000;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'TT Norms Pro', sans-serif;
+  }
+
+  a.btn {
+    gap: 1rem;
+  }
+}
+
+.tracking-delivery-card-wrapper {
+  background: $white;
+}
+
+.tracking-delivery-card {
+  padding: 0 30px;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+
+  .sub-card-item {
+    margin-bottom: 29px;
+
+    &:nth-child(5),
+    &:nth-child(3) {
+      margin: 0;
+    }
+
+    img {
+      width: 83px;
+    }
+
+    h5 {
+      color: $black;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 35px;
+      font-family: "TT Norms Pro", sans-serif;
+      margin-bottom: 0;
+    }
+
+    p {
+      color: #313131;
+      font-size: 17px;
+      line-height: 22px;
+      margin: 0;
+    }
+
+    a {
+      color: #5850c9;
+      font-size: 17px;
+      line-height: 27px;
+      margin-top: 6px;
+      display: inline-block;
+    }
+  }
+}
+
+.tracking.capsule,
+.tracking.curated,
+.tracking.recommended-product {
+  background: $white;
+}
+
+.tracking.recommended-product .small-product-card .small-badge {
+  top: -10%;
+  left: -7%;
+}
+
+// tracking collection section style
+.collection-section-heading {
+  text-align: center;
+
+  h2 {
+    color: $black;
+    font-size: 50px;
+    line-height: 60px;
+    font-family: 'TT Norms Pro', sans-serif;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-family: 'TT Norms Pro', sans-serif;
+    color: #313131;
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 40px;
+  }
+}
+
+// find scent
+section.tracking.find-scent {
+  .find-scent-content {
+    margin: 165px 0 185px 0;
+
+    h2 {
+      color: $black;
+      font-size: 60px;
+      line-height: 75px;
+      font-family: 'TT Norms Pro', sans-serif;
+      margin-bottom: 32px;
+    }
+
+    a.btn {
+      display: inline-flex;
+      gap: 1rem;
+      align-items: center;
+    }
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .tracking-delivery-card {
+    padding-inline-start: 0;
+
+    .img-thumbnail {
+      width: 150px;
+    }
+
+    .sub-card-item {
+      padding: 40px 0;
+    }
+  }
+
+  .collection-section-heading {
+    h2 {
+      font-size: 40px;
+      line-height: 45px;
+      margin-bottom: 16px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 27px;
+    }
+  }
+
+  .tracking.recommended-product .small-product-card .small-badge {
+    width: 48px;
+    top: -16px;
+    left: 0px;
+  }
+
+  section.tracking.find-scent {
+    .find-scent-content {
+      margin: 89px 0 100px 0;
+
+      h2 {
+        font-size: 45px;
+        line-height: 55px;
+        font-family: 'TT Norms Pro', sans-serif;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .tracking-delivery {
+    padding: 30px 0 35px 0;
+  }
+
+  .tracking-hero {
+    margin-bottom: 32px;
+
+    h4 {
+      font-size: 22px;
+      line-height: 27px;
+      font-family: "TT Norms Pro", sans-serif;
+    }
+  }
+
+  .tracking-delivery-card {
+    padding: 24px;
+
+    .sub-card-item {
+      padding: 0;
+
+      h5 {
+        font-size: 22px;
+        line-height: 30px;
+      }
+    }
+  }
+
+  .collection-section-heading {
+    h2 {
+      font-size: 25px;
+      line-height: 30px;
+      font-family: "TT Norms Pro", sans-serif;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 22px;
+    }
+  }
+
+  section.tracking.find-scent {
+    .find-scent-content {
+      h2 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 12px;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .tracking-hero {
+    h4 {
+      font-size: 20px;
+      line-height: 25px;
+      text-align: center;
+    }
+  }
+
+  .tracking-delivery-card-wrapper {
+    align-items: flex-end;
+    padding: 24px 20px;
+
+    .tracking-delivery-card {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 24px;
+      padding: 0;
+
+      .sub-card-item {
+        margin: 0;
+
+        h5.month {
+          font-family: "TT Norms Pro", sans-serif;
+          font-size: 35px;
+        }
+
+        h5 {
+          font-size: 20px;
+          margin-bottom: 4px;
+        }
+      }
+    }
+
+    .sub-card-item-mobile {
+      width: 120px;
+      height: 120px;
+      justify-content: flex-end;
+      align-items: flex-end;
+    }
+  }
+
+  section.tracking.find-scent {
+    .find-scent-content {
+      margin: 39px 0 47px 0;
+    }
+  }
+}

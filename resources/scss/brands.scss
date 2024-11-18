@@ -1,0 +1,207 @@
+@import "functions";
+@import "variables";
+@import "mixins";
+
+.brands-section {
+  padding: 83px 0 83px 0;
+
+  h2.title {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 40px;
+    line-height: 55px;
+    color: $black;
+  }
+
+  p.subtitle {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 18px;
+    color: #313131;
+  }
+}
+
+ul.nav-tabs {
+  border: 0;
+
+  .nav-item {
+    flex: 1;
+  }
+
+  .tab-button-brand {
+    border: 0;
+    border-bottom: 2px solid #ced4da;
+    background: transparent;
+    color: #313131;
+    font-family: 'TT Norms Pro',
+    sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0.25rem 1rem;
+    width: 100%;
+
+    &.active {
+      color: $pink-1;
+      border-bottom: 2px solid $pink-1;
+    }
+  }
+}
+
+.letters {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-flow: row wrap;
+  overflow-x: auto;
+  .letter {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #ced4da;
+    color: #313131;
+    font-family: 'TT Norms Pro',
+    sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    transition: all 0.3s ease;
+
+    &:hover,
+    &.active {
+      border-color: #313131;
+      background: #313131;
+      color: $white;
+    }
+
+    &.disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+}
+
+.selected-letter-wrapper {
+  h3 {
+    text-transform: uppercase;
+    color: $pink-1;
+  }
+
+  .perfume-name {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    @media (max-width: 475px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+    .selected-scent {
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 0.25rem 1rem;
+      color: black;
+      font-family: 'TT Norms Pro', sans-serif;
+      font-size: 1rem;
+      border: 1px solid #ced4da;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+      @media(max-width: 475px){
+        padding: 0px;
+      }
+      &:hover {
+        border-color: $pink-1;
+        color: #313131;
+      }
+    }
+  }
+}
+
+.new-brands {
+  h2 {
+    text-transform: capitalize;
+  }
+
+  .scentq-collection-card {
+    h3 {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: $black;
+      text-decoration: none;
+      transition: all 0.3s ease;
+
+      &:hover {
+        color: $pink-1;
+      }
+    }
+
+    a.product-link {
+      color: $pink-1;
+    }
+  }
+}
+
+.clean-brands {
+  h2 {
+    text-transform: capitalize;
+  }
+
+  .brand-card {
+    gap: 1rem;
+  }
+
+  .img-box {
+    width: 92px;
+    height: 92px;
+    display: grid;
+    place-items: center;
+  }
+
+  .content {
+    flex: 1;
+  }
+
+  h3 a {
+    text-decoration: none;
+    font-size: 22px;
+    color: $black;
+
+    &:hover {
+      color: $pink-1;
+    }
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .view-products {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: $pink-1;
+    text-decoration: none;
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .brands-section {
+    padding: 44px 0 48px 0;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .brands-section {
+    padding: 21px 0 39px 0;
+
+    h2.title {
+      font-size: 30px;
+      line-height: normal;
+    }
+
+    p.subtitle {
+      font-size: 1rem;
+    }
+  }
+}

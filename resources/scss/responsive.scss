@@ -1,0 +1,1323 @@
+@import "functions";
+@import "variables";
+@import "mixins";
+
+@include media-breakpoint-down(xxl) {
+  .home-feature-section {
+    height: auto !important;
+    position: static !important;
+    z-index: unset;
+    margin-top: 0 !important;
+  }
+
+  .home-feature-section:not(.gift-subscription-page) {
+    transform: translateY(-50%);
+  }
+
+  .menu-utilities form+.btn {
+    padding: 15px 20px 15px 20px;
+    position: relative;
+    min-width: 200px;
+
+    img {
+      margin-inline-start: 0;
+      position: absolute;
+      right: 15px;
+    }
+  }
+}
+
+@include media-breakpoint-down(xl) {
+
+  .home.landing-hero-content {
+    position: static;
+  }
+
+  .home.landing-hero-content-container {
+    margin: 1rem auto 2rem auto;
+    text-align: center;
+
+    h1 {
+      margin-inline-end: 0;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    .timer-card {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .hero-img {
+    position: static;
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .landing-hero-background {
+    height: auto;
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .collection-section {
+    padding: 51px 0 56px 0;
+  }
+
+  .section-padding {
+    padding: 60px 0 40px;
+  }
+
+  .landing-hero h1,
+  .home-header-content h1 {
+    font-size: 41px;
+  }
+
+  .common-header-top-section {
+    min-height: 80px;
+    padding: 1rem;
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .landing-hero-background {
+    &.home {
+      height: 450px;
+    }
+  }
+
+  .nav-menu nav ul {
+    gap: 10px;
+  }
+
+  .section-header h3 {
+    font-family: "TT Norms Pro", sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .how-to {
+    padding: 60px 0 40px 0;
+  }
+
+  .how-to-image {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .menu-toggle {
+    span {
+      width: 30px;
+      height: 3px;
+      background: #fff;
+      border-radius: 5px;
+      display: block;
+      margin-bottom: 7px;
+      transition: 0.3s;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    &.active-toggle {
+      span {
+        &:nth-child(3) {
+          display: none;
+        }
+
+        &:nth-child(1) {
+          transform: rotate(45deg) translateY(10px);
+          transform-origin: center center;
+        }
+
+        &:nth-child(2) {
+          transform: rotate(-45deg) translateY(-8px) translateX(-3px);
+          transform-origin: center center;
+        }
+      }
+    }
+  }
+
+  // profile
+  .profile.profile-content {
+    padding: 2.25rem 0 3rem 0;
+  }
+
+  //   .landing-hero-content-container {
+  //     text-align: center;
+  //     p {
+  //       text-align: center;
+  //     }
+  //   }
+
+  // product
+  //.product-card {
+  //    .product-notes {
+  //        margin-bottom: 1rem;
+  //    }
+  //
+  //    article.meta-text {
+  //        display: none;
+  //    }
+  //}
+
+  .recommended-product h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-family: 'TT Norms Pro', sans-serif;
+  }
+
+  // collection slider
+  .small-product-card {
+    padding: 30px 10px;
+    margin: 0 8px;
+  }
+
+  // blog
+  .blog-section {
+    h2 {
+      font-size: 40px;
+      line-height: 50px;
+      font-family: 'TT Norms Pro', sans-serif;
+    }
+
+    p.sub-title {
+      font-family: 'TT Norms Pro', sans-serif;
+      font-size: 18px;
+      line-height: 30px;
+      margin-top: 0;
+    }
+  }
+
+  .single-blog .blog-content {
+    h3 {
+      font-size: 25px;
+      line-height: 35px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 25px;
+    }
+  }
+
+  // trending
+  .single-trending-note {
+    padding: 0 1rem 25px 1rem;
+
+    h6 {
+      font-size: 18px;
+      line-height: 26px;
+    }
+
+    h6+span {
+      font-size: 15px;
+      line-height: 24px;
+      margin-bottom: 35px;
+    }
+  }
+
+  // newsletter
+  .newsletter {
+    h3 {
+      font-size: 40px;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+  }
+
+  // footer
+  .footer-content {
+    ul li a {
+      line-height: 40px;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .collection-section {
+    padding: 23px 0 30px 0;
+  }
+
+  .section-padding {
+    padding: 35px 0 30px;
+  }
+
+  .common-header-top-section {
+    p {
+      font-size: 15px;
+    }
+
+    a.btn {
+      font-size: 15px;
+    }
+  }
+
+  .offcanvas-area {
+    display: block;
+  }
+
+  .nav-menu,
+  .top-menu {
+    padding: 0 20px;
+
+    justify-content: center;
+  }
+
+  .btn-add-to-queue {
+    display: flex;
+  }
+
+  button.carousel-btn {
+    display: none !important;
+  }
+
+  .landing-hero-background {
+    &.home {
+      height: auto;
+    }
+  }
+
+  .landing-hero-content-container {
+    width: 100%;
+    // max-width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .landing-hero h1,
+  .home-header-content h1 {
+    font-size: 41px;
+    line-height: 41px;
+    margin: 1rem 0 12px 0px;
+  }
+
+  .landing-hero {
+    p {
+      text-align: center;
+    }
+
+    &.home {
+      padding-bottom: 10px;
+    }
+  }
+
+  .products-list-title {
+    font-family: "TT Norms Pro", sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+
+  .timer-card {
+    width: 100%;
+    text-align: center;
+  }
+
+  .timer-card .timer-card-boxes {
+    justify-content: center;
+  }
+
+  .curated-brands {
+    margin: 0;
+    padding-top: 55px;
+    padding-bottom: 28px;
+    background-size: 100% 400px;
+    background-image: url("../images/bg/Curted_Fragrances_Bg@2x.png");
+
+    .section-title {
+      h3 {
+        font-size: 25px;
+        line-height: 25px;
+        font-family: "TT Norms Pro", sans-serif;
+      }
+
+      p {
+        font-size: 15px;
+        line-height: 22px;
+        font-family: 'TT Norms Pro', sans-serif;
+      }
+    }
+
+    .brands {
+
+      .brands-row {
+        gap: 16px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 83px;
+
+        .brand-box {
+          display: grid;
+          place-items: center;
+          padding: 1rem;
+          background-color: #fff;
+          box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.06);
+        }
+      }
+    }
+
+    .section-body .btn {
+      width: 100%;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: 'TT Norms Pro',
+        sans-serif;
+      font-size: 16px;
+      letter-spacing: 0.77px;
+    }
+  }
+
+  .call-to-action {
+    background-position: 25% 0px;
+
+    .call-to-action-container {
+      padding: 100px 0;
+
+      h2 {
+        font-size: 40px;
+      }
+    }
+  }
+
+  .product-card {
+    .product-card-action {
+      margin-top: 1rem;
+    }
+  }
+
+  .how-to {
+    padding: 30px 0 0px 0;
+  }
+
+  .how-to-image {
+    img {
+      width: 100%;
+    }
+  }
+
+  .collection-section-heading {
+    h2 {
+      font-family: "TT Norms Pro", sans-serif;
+      font-size: 25px;
+      line-height: 35px;
+      margin-top: 5px;
+      margin-bottom: 0;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 22px;
+      margin-bottom: 18px;
+    }
+  }
+
+  .scentq-collection-card {
+    h3 {
+      font-size: 16px;
+      line-height: normal;
+      font-family: 'TT Norms Pro',
+        sans-serif;
+      padding: 12px 0 0;
+      margin: 0;
+      margin-bottom: 2px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: normal;
+      margin-bottom: 18px;
+    }
+
+    a {
+      color: $pink-1;
+      font-family: "TT Norms Pro", sans-serif;
+      font-size: 14px;
+    }
+  }
+
+  .recommended-product h2 {
+    font-size: 25px;
+    line-height: 35px;
+    font-family: "TT Norms Pro", sans-serif;
+  }
+
+  // blog
+  .blog-section {
+    &.collection-section {
+      padding-top: 24px;
+      padding-bottom: 18px;
+    }
+
+    .view-all {
+      padding: 1rem;
+      margin-top: 36px;
+    }
+
+    h2 {
+      font-size: 25px;
+      line-height: 35px;
+      font-family: "TT Norms Pro", sans-serif;
+    }
+
+    p.sub-title {
+      font-size: 16px;
+      line-height: 25px;
+      margin-bottom: 0;
+    }
+  }
+
+  .single-blog .blog-content {
+    h3 {
+      font-family: 'TT Norms Pro', sans-serif;
+      font-size: 16px;
+      line-height: normal;
+      margin-bottom: 5px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 22px;
+    }
+
+    a {
+      text-decoration: none;
+      font-family: 'TT Norms Pro', sans-serif;
+      color: $pink-1;
+      padding: 0;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: flex-start;
+
+      img {
+        position: static;
+      }
+    }
+  }
+
+  .social-icon {
+    gap: 10px;
+  }
+
+  // profile
+  .profile.profile-content {
+    padding: 2.25rem 0 1.75rem 0;
+  }
+
+  .profile-contant p {
+    font-size: 15px;
+  }
+
+  .newsletter p {
+    font-size: 30px;
+    line-height: 1.3;
+  }
+
+  span.select2.select2-container.select2-container--scentq {
+    width: 100% !important;
+  }
+
+  // footer
+  .footer-content {
+    width: 100%;
+    max-width: 100%;
+
+    .footer-logo {
+      width: 100%;
+      text-align: center;
+    }
+
+    p {
+      font-size: 18px;
+      text-align: center;
+    }
+
+    .social-icon {
+      width: 100%;
+      margin: auto;
+      justify-content: center;
+      gap: 40px;
+      margin-bottom: 40px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid #d5d5d55b;
+    }
+
+    ul {
+      margin-top: 1rem;
+    }
+
+    ul li a {
+      font-size: 15px;
+      line-height: 30px;
+    }
+  }
+
+  .checkout-credit-card-box h5 {
+    font-weight: 500;
+    font-family: "TT Norms Pro", sans-serif;
+    line-height: 1.3;
+    margin-top: 40px;
+  }
+
+  .billing-box h3,
+  .profile-contant h4 {
+    font-weight: 500;
+    font-family: "TT Norms Pro", sans-serif;
+    line-height: 1.3;
+  }
+
+  .checkout-credit-card-box h5+div {
+    float: none;
+    margin-bottom: 40px;
+  }
+
+  .subscription-info p {
+    font-size: 15px;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .product-card {
+    article.meta-text {
+      display: none;
+    }
+  }
+
+  .newsletter form div.form-group .btn {
+    transform: none;
+  }
+
+  .how-to-process {
+    display: block;
+
+    .serial {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+
+  .products-list {
+    .view-more a {
+      width: 100%;
+      text-align: center;
+      text-transform: uppercase;
+      padding: 20px 0;
+      font-family: 'TT Norms Pro', sans-serif;
+      font-size: 16px;
+    }
+  }
+
+  .product-card {
+    position: relative;
+    padding: 10px;
+
+    .product-notes {
+      display: none;
+    }
+
+    .product-image {
+      position: static;
+    }
+
+    .product-image>img {
+      width: 124px;
+      height: 125px;
+    }
+
+    .product-image .badges {
+      top: 10px;
+      left: 10px;
+
+      img {
+        width: 41px;
+      }
+    }
+
+    .product-meta {
+      h6 {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 16px;
+        margin-bottom: 0;
+      }
+
+      h5 {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 15px;
+        line-height: 30px;
+        margin: 0;
+      }
+    }
+
+    .add-btn {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 35px;
+      height: 35px;
+      display: grid;
+      place-items: center;
+      padding: 0;
+    }
+  }
+
+  .call-to-action {
+    background-repeat: no-repeat;
+    background-position: 10% 0px;
+    background-size: cover;
+
+    .call-to-action-container {
+      padding: 27px 25px;
+
+      h2 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .newsletter {
+    padding: 25px 0 0 0;
+
+    h3 {
+      font-family: "TT Norms Pro", sans-serif;
+      font-size: 25px;
+      line-height: 35px;
+      margin-bottom: 1rem;
+    }
+
+    form {
+      height: 10rem;
+
+      div.inner-addon.inner-addon-left input[type="email"] {
+        padding: 20px;
+        padding-inline-start: 4rem;
+      }
+
+      .btn {
+        width: 100%;
+        position: static !important;
+        margin-top: 15px;
+        //right: 0% !important;
+        //top: 130% !important;
+        //padding: 20px;
+        text-align: center !important;
+      }
+    }
+  }
+
+  .footer-bottom {
+    font-size: 15px;
+
+    .bottom-link {
+      gap: 20px;
+    }
+  }
+}
+
+.top-menu .profile-menuitem .dropdown-toggle {
+  font-family: 'TT Norms Pro', sans-serif;
+  font-size: 17px;
+}
+
+.footer-logo img {
+  height: 18px;
+}
+
+.single-Shipping-card .img-thumbnail img {
+  height: 80px;
+}
+
+.small-product-card .small-product-image img {
+  height: 350px;
+  object-fit: contain;
+}
+
+.small-product-card .small-product-content p,
+.small-product-card .small-product-content h5 {
+  height: 35px;
+  display: block;
+  /* or inline-block */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 4.5em;
+  line-height: 1.5em;
+}
+
+.queue-sub-card .queue-card-left .img-thumbnail img {
+  height: 70px;
+}
+
+.invited-friend {
+  padding-top: 15px;
+}
+
+.invited-friend img {
+  transform: none !important;
+}
+
+.product-card .product-image>img {
+  height: 312px;
+}
+
+.single-top-rated-product .img-thumbnail img {
+  height: 55px;
+  object-fit: contain;
+}
+
+.top-rated-product-content h6 {
+  height: 50px;
+  overflow: hidden;
+}
+
+.product-img-box img {
+  height: 400px;
+  object-fit: contain;
+}
+
+.product-card .product-meta h5,
+.product-card .product-meta h6:first-of-type {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.subscriptions-wrapper .product-quantity-price .quantity-price-text span+h6 {
+  font-size: 16px !important;
+}
+
+.product-card .product-meta h5 {
+  line-height: 1.2 !important;
+}
+
+@media(min-width: 1024px) {
+
+  .top-rated-products .row:nth-of-type(2) {
+    min-height: 170px;
+  }
+
+  .top-rated-products .col-md-6 {
+    position: relative;
+  }
+
+  .top-rated-products .single-top-rated-product {
+    position: absolute;
+    width: 95%;
+    height: 100%;
+  }
+
+}
+
+@media(min-width:1024px) and (max-width: 1279px) {
+
+  .single-top-rated-product .btn {
+    position: absolute;
+    right: 8px;
+  }
+
+}
+
+@media(max-width: 1620px) {
+  .dropdown_wrapper.link_fragrance>div {
+    width: 75% !important;
+  }
+}
+
+@media(max-width: 1500px) {
+  .how-to-process .process-title h4 {
+    min-height: 70px;
+  }
+
+  .how-to-process {
+    height: 215px !important;
+  }
+
+  .letters {
+    display: grid !important;
+    grid-template-columns: repeat(13, 1fr);
+    grid-auto-rows: minmax(30px, auto);
+  }
+}
+
+@media(max-width: 1400px) {
+  .dropdown_wrapper.link_fragrance>div {
+    width: 85% !important;
+  }
+}
+
+@media(max-width: 1280px) {
+  .how-to-process {
+    height: 240px !important;
+  }
+}
+
+@media(max-width: 1240px) {
+  .dropdown_wrapper.link_fragrance>div {
+    width: 95% !important;
+  }
+}
+
+@media(max-width: 1110px) {
+  .dropdown_wrapper.link_fragrance>div {
+    width: 100% !important;
+  }
+
+  .dropdown_wrapper.link_fragrance .dropdown-nav-img {
+    width: 500px !important;
+  }
+
+  .invited-friend img {
+    display: block !important;
+    width: 140px !important;
+  }
+
+  .invited-friend.d-flex {
+    display: block !important;
+  }
+}
+
+@media(max-width: 950px) {
+  .dropdown_wrapper.link_fragrance .dropdown-nav-img {
+    width: 400px !important;
+  }
+}
+
+@media(max-width: 850px) {
+  .dropdown_wrapper.link_fragrance .dropdown-nav-img {
+    width: 300px !important;
+  }
+}
+
+@media(max-width: 767px) {
+  .cart-actions {
+    margin-top: 25px !important;
+  }
+
+  .curated-brands {
+    text-align: center;
+  }
+
+  .curated-brands .section-body .btn {
+    width: 80% !important;
+    float: none !important;
+  }
+
+  .single-top-rated-product .btn {
+    width: 30px !important;
+    height: 30px !important;
+    padding: 6px;
+  }
+
+  .single-top-rated-product .btn img {
+    margin-top: -18px;
+  }
+
+  .product-details-content h4 {
+    margin-top: 15px;
+  }
+
+  .letters {
+    display: flex !important;
+  }
+
+  .common-header-top-section {
+    display: none !important;
+  }
+
+  /* .search-wrapper{
+                display: none;
+            } */
+  .mobile-menu-wrap {
+    height: 50px !important;
+  }
+
+  .offcanvas-area {
+    top: 55px !important;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .offcanvas-area .ocm-head ul li a,
+  .offcanvas-area .mobile-menu-area ul.offcanvas-menu li a {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 20px;
+  }
+
+  .offcanvas-area .ocm-head ul li.active-menu-accor a {
+    background: #000;
+    color: #fff;
+  }
+}
+
+@media(max-width: 640px) {
+  .call-to-action.gift-subscription-page .gift-subscription-top-badge img {
+    width: 120px;
+    margin-inline-start: 25px;
+  }
+
+  .call-to-action .call-to-action-container {
+    padding: 50px 25px !important;
+  }
+}
+
+@media(max-width: 500px) {
+  .icons-row {
+    margin-top: 15px !important;
+  }
+
+  .landing-hero h1,
+  .landing-hero .same-h1 {
+    font-size: 30px !important;
+    line-height: 30px;
+  }
+
+  .blog-section .sub-title {
+    text-align: justify;
+  }
+
+  .profile-contant p {
+    text-align: justify;
+  }
+
+  .queue-sub-card .queue-card-left .img-thumbnail img {
+    height: 50px;
+  }
+
+  .queue-product-img .img-thumbnail img {
+    max-height: 165px;
+    object-fit: contain;
+  }
+
+  .small-product-card .small-product-image img {
+    height: 200px;
+  }
+
+  .home.trending-notes .collection-section-heading p {
+    text-align: justify;
+  }
+
+  .single-trending-note .img-thumbnail img {
+    object-fit: contain;
+  }
+
+  .single-trending-note h6 {
+    font-size: 15px !important;
+  }
+
+  .invite-a-friends .social-icon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(65px, auto);
+  }
+
+  .get-free-perfumes .social-icon a {
+    margin: auto;
+  }
+
+  .get-free-perfumes .social-icon a img {
+    margin-top: -8px;
+  }
+
+  .invited-friend-content h2 {
+    font-weight: normal !important;
+    font-size: 25px !important;
+  }
+
+  .invite-friends-form h2 {
+    font-size: 25px !important;
+  }
+
+  .timer-card .box {
+    width: 43px !important;
+    height: 43px !important;
+    margin: 0 !important;
+  }
+
+  .product-img-box img {
+    height: 200px;
+  }
+
+  // .subscriptions-wrapper .product-quantity-price {
+  //   display: block !important;
+  // }
+
+  .product-quantity-price .btn-add-to-queue {
+    margin-inline-start: 0 !important;
+  }
+
+  .single-brand .product-img {
+    height: 200px !important;
+  }
+
+  .single-brand .text-center img {
+    object-fit: contain;
+    // margin-top: -90px;
+  }
+
+  .product-card .product-meta h6 {
+    font-size: 13px !important;
+  }
+
+  .product-card .product-meta h6:first-of-type {
+    font-size: 15px !important;
+  }
+
+  .get-free-perfumes h1 {
+    margin-top: 50px;
+  }
+}
+
+@media(max-width: 400px) {
+  .how-to-process {
+    height: 255px !important;
+  }
+
+  .gift-subscription-page .call-to-action-container h2 {
+    font-size: 30px !important;
+    line-height: 30px !important;
+  }
+
+  .call-to-action.gift-subscription-page {
+    margin-top: 90px !important;
+  }
+
+  .invite-friends-form .social-icon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(65px, auto);
+  }
+
+  .invite-friends-form .social-icon .social-icon-btn {
+    margin: auto;
+  }
+
+  .invite-friends-form .social-icon .social-icon-btn img {
+    margin-top: -5px;
+  }
+
+  .call-to-action .btn-lg {
+    font-size: 14px;
+  }
+
+  .footer-bottom {
+    display: block !important;
+  }
+
+  .footer-bottom p {
+    font-size: 18px;
+  }
+
+  .footer-bottom .bottom-link {
+    margin-top: 10px;
+  }
+
+}
+
+@media(max-width: 372px) {
+  .call-to-action .btn-lg {
+    font-size: 12px;
+  }
+}
+
+@media(max-width: 350px) {
+  .call-to-action .btn-long .icon-right {
+    margin-inline-start: 10px;
+    width: 17px;
+  }
+}
+
+@media(max-width: 334px) {
+  .call-to-action .btn-lg {
+    font-size: 11px;
+  }
+}
+
+@media(max-width: 320px) {
+  .product-quantity-price .btn-add-to-queue {
+    font-size: 12px !important;
+  }
+}
+
+.anchor-tab a:hover::after {
+  width: 0;
+}
+
+.anchor-tab .active:hover::after {
+  width: 100% !important;
+}
+
+.profile-info ul li a:hover {
+  color: #313131;
+}
+
+.invite-a-friends.get-free-perfumes .Vue-Toastification__toast--error {
+  background-color: #ff5252 !important;
+  color: #fff;
+}
+
+.dropdown-menu.dropdown-menu-end.show li:last-child button {
+  font-family: 'TT Norms Pro', sans-serif !important;
+}
+
+.letters {
+  display: flex !important;
+  flex-flow: row wrap;
+  justify-items: center;
+  gap: 1rem 0 !important;
+}
+
+.letters .letter {
+  border: 1px solid transparent !important;
+}
+
+@media screen and (max-width:1500px) {
+  .letters {
+    display: flex !important;
+    flex-flow: row wrap;
+    justify-items: center;
+    gap: 1rem 0;
+  }
+
+  .letters .letter {
+    border: 1px solid transparent !important;
+    color: #313131;
+
+    display: grid;
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 20px;
+    height: 2.5rem;
+    line-height: 30px;
+    place-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    width: 2.5rem;
+  }
+
+  .sticky {
+    background-color: #fff;
+    box-shadow: 0 2px 6rem rgb(0 0 0 / 15%);
+    height: 90px;
+    left: 0;
+    padding-top: 26px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width:1039px) {
+  .letters {
+    display: flex !important;
+    flex-flow: row wrap;
+    justify-items: center;
+    gap: 1rem 0;
+  }
+
+  .letters .letter {
+    border: 1px solid transparent !important;
+    color: #313131;
+    display: grid;
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 20px;
+    height: 2.5rem;
+    line-height: 30px;
+    place-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    width: 2.5rem;
+  }
+
+  .sticky {
+    background-color: #fff;
+    box-shadow: 0 2px 6rem rgb(0 0 0 / 15%);
+    height: 130px !important;
+    left: 0;
+    padding-top: 26px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width:519px) {
+  .letters {
+    display: flex !important;
+    flex-flow: row wrap;
+    justify-items: center;
+    gap: 1rem 0;
+  }
+
+  .letters .letter {
+    border: 1px solid transparent !important;
+    color: #313131;
+    display: grid;
+    font-family: 'TT Norms Pro',sans-serif;
+    font-size: 15px;
+    height: 2rem !important;
+    line-height: 30px;
+    place-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    width: 1.5rem !important;
+  }
+
+  .sticky {
+    background-color: #fff;
+    box-shadow: 0 2px 6rem rgb(0 0 0 / 15%);
+    height: 120px !important;
+    left: 0;
+    padding-top: 26px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  @media (max-width: 525px) {
+    .menu-toggle {
+      height: 24px;
+
+      span {
+        width: 24px;
+        height: 2px;
+        margin-bottom: 6px;
+      }
+    }
+
+    .mobile-menu-wrap {
+      height: 50px;
+    }
+
+    .section-title {
+      h3 {
+        font-size: 24px;
+        line-height: 32px;
+      }
+    }
+  }
+}

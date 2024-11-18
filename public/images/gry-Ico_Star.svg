@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_150" data-name="Rectangle 150" width="16" height="16" transform="translate(0 0)" fill="#dfdfdf"/>
+    </clipPath>
+  </defs>
+  <g id="Ico_Star" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <path id="star" d="M7.591.523,5.641,4.416l-4.363.626A.937.937,0,0,0,.749,6.647L3.906,9.675l-.747,4.278a.952.952,0,0,0,1.386.991l3.9-2.02,3.9,2.02a.953.953,0,0,0,1.386-.991l-.747-4.277,3.156-3.028a.937.937,0,0,0-.529-1.605l-4.363-.626L9.3.523a.963.963,0,0,0-1.714,0Z" transform="translate(-0.46 0.609)" fill="#dfdfdf"/>
+  </g>
+</svg>

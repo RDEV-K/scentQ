@@ -1,0 +1,3030 @@
+/* font family */
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.offer {
+  background-color: black;
+}
+
+/* top header section */
+.top-header-section {
+  background-color: #da9399;
+}
+
+/* navbar */
+.navbar {
+  border-bottom: 1px solid hsla(0, 0%, 100%, .3);
+}
+
+.men-women a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.men-women a:hover {
+  color: black;
+}
+
+.home-log-in {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.home-log-in:hover {
+  color: black;
+}
+
+.offcanvas-toogle-btn {
+  margin-top: -7px;
+}
+
+/* navbar offcanvas */
+.btn-check:focus+.btn,
+.btn:focus {
+  box-shadow: none !important;
+}
+
+.offcanvas-text {
+  margin-top: 80px;
+  margin-inline-start: 30px;
+}
+
+/* .offcanvas-text h3{
+    font-weight: 600;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+} */
+
+.gift-product-offcanvas {
+  font-weight: 600;
+}
+
+.gift-product-offcanvas:hover {
+  transition: 0.3s all;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* .chose-num{
+    width: 24px;
+    height: 24px;
+    border: 1px solid #dddd;
+    border-radius: 50%;
+} */
+
+.get-disscount {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-disscount h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.get-disscount p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* top quality section */
+.top-quality {
+  background-color: #ffebf3;
+  margin-top: 140px;
+}
+
+.top-quality img {
+  margin-top: -60px;
+}
+
+/* quiz button */
+.quiz-button {
+  border: none;
+  width: 250px;
+  padding: 16px 0px;
+  background-color: #ff408e;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.quiz-button:hover {
+  background-color: #ff5fa0;
+  transition: 0.9s;
+}
+
+/* feelings mysterious-section */
+.mysterious-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* product section */
+.product-section {
+  background-color: #f9f9f9;
+}
+
+.perfumes-home {
+  text-align: center;
+  font-weight: 500;
+  color: black;
+  border: none;
+  background-color: #f9f9f9;
+  font-size: 16px;
+}
+
+.perfumes-home.active {
+  border-bottom: 2px solid #ff408e;
+}
+
+/* product-card */
+
+.all-product-card {
+  border: none !important;
+  box-shadow: 0 4px 32px rgba(62, 18, 35, .2);
+  z-index: 0;
+  transition: 0.3s all;
+}
+
+.all-product-card:hover {
+  box-shadow: 0px 15px 40px gray;
+}
+
+
+.plus-icon:hover {
+  color: #ff408e;
+  cursor: pointer;
+}
+
+/* view more button */
+.view-more {
+  text-align: center;
+}
+
+.view-more-button {
+  border: 1px solid #ff408e;
+  width: 350px;
+  padding: 16px 0px;
+  color: #ff408e;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #f9f9f9;
+}
+
+.view-more-button:hover {
+  background-color: #ff408e;
+  color: white;
+}
+
+/* create account section */
+.create-account {
+  background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/female_dad7cd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+}
+
+
+/* footer */
+.footer-bg {
+  background-color: black;
+}
+
+.footer-about a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 38px;
+}
+
+.footer-about a:hover {
+  color: #ff408e;
+}
+
+/* footer socail icon */
+.social-icon svg {
+  width: 30px;
+  height: 30px;
+}
+
+.social-icon svg:hover {
+  transition: 0.5s;
+  color: gray;
+}
+
+/* footer input button  */
+.form-control {
+  height: 50px;
+}
+
+/*  */
+.product-item {
+  width: 40px;
+}
+
+/* footer under line */
+
+.footer-botom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-botom-text a {
+  text-decoration: none;
+  margin-inline-start: 15px;
+  font-size: 14px;
+  color: #cecece;
+}
+
+.footer-botom-text a:hover {
+  transition: 0.5s;
+  color: gray;
+}
+
+
+/* personal  css */
+
+.personal-page-bg {
+  background-color: #f9f9f9;
+}
+
+.personal-text p {
+  font-weight: 500;
+}
+
+.personal-info {
+  color: #ff408e;
+}
+
+.order-info {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.order-info:hover {
+  color: #ff408e;
+}
+
+.save-button button {
+  border: none;
+  background-color: #ff408e;
+  color: white;
+  font-weight: 600;
+}
+
+.personal-input {
+  box-shadow: none !important;
+}
+
+.form-input-ce {
+  font-size: 20px;
+}
+
+.form-input-ce:checked {
+  background-color: #ff408e;
+  border: 1px solid #ff408e !important;
+}
+
+.tab-button {
+  text-align: center;
+  font-weight: 600;
+  color: black;
+  border: none;
+  background-color: #f9f9f9;
+
+}
+
+.tab-button.active {
+  border-bottom: 2px solid #ff408e !important;
+}
+
+/* shipping-form */
+
+.amazon-payment-btn {
+  background-color: #fad676;
+  width: 300px;
+  border: none;
+}
+
+.paypal-payment-btn {
+  width: 300px;
+  border: none;
+  background-color: #2b70b6;
+  padding-top: 5px;
+  padding-bottom: 6px;
+}
+
+.payment-submit input {
+  width: 100%;
+  border: none;
+  background-color: #ff408e;
+  font-weight: 600;
+  color: white;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-size: 20px;
+}
+
+.payment-submit input:hover {
+  background-color: #ff5fa0;
+  transition: 0.9s;
+}
+
+
+
+/* recomendations  css */
+
+.navbar-items-name {
+  font-size: 14px;
+  color: #cecece !important;
+}
+
+/* menubar */
+
+li.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-gift-list {
+  background-color: #212529 !important;
+}
+
+.gift-items-name {
+  color: #cecece !important;
+  font-size: 16px;
+}
+
+.gift-items-list {
+  font-size: 12px;
+  color: #cecece !important;
+}
+
+.gift-items-list:hover {
+  background-color: #212529 !important;
+  color: white !important;
+  transition: 0.3s all;
+}
+
+.gift-items-list:active {
+  background-color: none !important;
+}
+
+.how-work-page {
+  background-color: #f7e1e0;
+  color: #cc3633;
+}
+
+.offcanvas-subscription-btn {
+  width: 100%;
+  background-color: #cc3633;
+  color: white;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.offcanvas-login-btn {
+  width: 100%;
+  color: #cc3633;
+  background-color: white;
+  border: 1px solid #cc3633;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.offcanvas-login-btn:hover {
+  background-color: #cc3633;
+  color: white;
+}
+
+.offcanvas-download-btn {
+  border: none;
+  background-color: #cc3633;
+  color: white;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.review-search-input {
+  border-bottom: 1px solid #c0c0c0 !important;
+  border-radius: 0% !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.review-search-input:focus {
+  box-shadow: 0 !important;
+}
+
+.review-search-icon {
+  width: 20px;
+  margin-top: -70px;
+}
+
+.review-input-text:hover {
+  border-bottom: 1px solid black;
+}
+
+.carousel-slider-bg {
+  background-color: #ff408e;
+  color: white;
+  font-weight: 400;
+}
+
+
+.cart {
+  width: 21px;
+  height: 17px;
+  background-image: url(http://cdn.scentbird.com/assets/frontbird-site/images/cart-female_d52b2d.svg);
+  background-size: 100% auto;
+  margin-top: 10px;
+}
+
+.menu-bar li a {
+  font-size: 13px;
+  font-weight: 500;
+  color: black !important;
+
+}
+
+.menu-bar li a:hover {
+  color: #ff408e !important;
+}
+
+.recomendations-bg {
+  background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/off50_8aad96.jpg");
+  width: 100%;
+  height: 553px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.update-payment-section {
+  margin-top: 170px;
+  max-width: 460px;
+}
+
+.update-payment h1 {
+  font-weight: 600;
+}
+
+.update-payment-btn {
+  border: none;
+  background-color: #ff408e;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.update-payment-btn:hover {
+  background-color: #ff5fa0;
+  transition: 0.9s;
+}
+
+.authentic-brand {
+  width: 1064px;
+  background-color: white;
+  margin-top: -33px;
+}
+
+.get {
+  background-color: #f9f9f9;
+}
+
+.treanding-page-bg {
+  background-color: #f9f9f9;
+}
+
+.edit-address {
+  color: #ff408e;
+  font-weight: 400;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.edit-address:hover {
+  color: #ff408e;
+}
+
+.uppcoming-shipping-p {
+  font-size: 14px;
+}
+
+.uppcoming-shipping-p:hover {
+  color: #ff408e;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.product-addcart-btn {
+  border: 1px solid #e6e6e6;
+  background-color: white;
+}
+
+.product-addcart-btn:focus {
+  border: 1px solid #ff408e;
+}
+
+.purcase-price {
+  color: #ff408e;
+  font-weight: 600;
+}
+
+.add-cart-btn {
+  background-color: #ff408e;
+  color: white;
+  font-weight: 500;
+  border: none;
+  width: 100%;
+  font-size: 18px;
+}
+
+.add-cart-btn:hover {
+  background-color: #ff5fa0;
+  transition: 0.9s;
+}
+
+.shipment-product-card {
+  width: 100%;
+}
+
+.recommendation-quiz {
+  text-decoration: none;
+  color: black;
+}
+
+.recommendation-quiz h2 {
+  font-weight: 600;
+}
+
+.recommendation-quiz h2:hover {
+  color: #ff408e;
+}
+
+.add-plus:hover {
+  color: #ff408e;
+  cursor: pointer;
+}
+
+.ratting-star {
+  color: #ff408e;
+}
+
+.thumbs-up-icon i {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.recomend-product-card {
+  box-shadow: 0 4px 32px rgba(62, 18, 35, .2);
+  /* z-index: 0; */
+  transition: 0.3s all;
+}
+
+.recomend-product-card:hover {
+  box-shadow: 0px 5px 40px gray;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+
+.upcharge-price {
+  background-color: #ff408e;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  height: 23px;
+  margin-top: 5px;
+  margin-inline-start: -10px;
+}
+
+.rated-product-name {
+  width: 130px;
+}
+
+.rated-star-venta {
+  font-size: 12px;
+  color: #ff408e;
+}
+
+.rated-add-btn button {
+  border: 1px solid #ff408e;
+  background-color: white;
+  color: #ff408e;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.rated-add-btn button:hover {
+  background-color: #ff408e;
+  color: white;
+  transition: 0.5s all;
+}
+
+.card-img img {
+  width: 150px;
+  height: 150px;
+}
+
+.card-flower {
+  border-radius: 100%;
+  background-color: white;
+  cursor: pointer;
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+}
+
+.card-flower:hover {
+  background-color: #ffd7e7;
+}
+
+.price-card:checked {
+  border: 1px solid #ff408e;
+}
+
+.montly-product-card {
+  height: 159px;
+}
+
+.montly-product-card {
+  border: 2px solid #ff408e;
+}
+
+.card-select-btn {
+  text-align: end;
+  color: #ff408e;
+}
+
+.monthly-purces-card {
+  cursor: pointer;
+}
+
+.free {
+  color: #ff408e;
+}
+
+.under-line {
+  border: 2px solid gray;
+}
+
+.back-button {
+  border: none;
+  color: gray;
+  background-color: white;
+  font-weight: 700;
+}
+
+.back-button:hover {
+  background-color: #b3d4fc;
+  transition: 0.5s all;
+}
+
+.confirm-button {
+  border: none;
+  color: white;
+  background-color: #ff408e;
+  font-weight: 700;
+}
+
+
+/* media query */
+
+@media only screen and (max-width: 700px) {
+  .card-img {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+
+
+
+/* recoman css */
+
+.recoman-page-bg {
+  background-color: #f9f9f9;
+}
+
+.fragrance-profile {
+  background-color: white;
+}
+
+.profile-text {
+  color: #ff408e;
+  font-weight: 700;
+}
+
+
+.tab-button-reco {
+  text-align: center;
+  font-weight: 600;
+  color: black;
+  border: none;
+  background-color: #f9f9f9;
+
+}
+
+.tab-button-reco.active {
+  border-bottom: 2px solid #ff408e;
+}
+
+.retake-quiz-btn {
+  border: none;
+  background-color: #ff408e;
+  color: white;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+.retake-quiz-btn:hover {
+  background-color: #ff5fa0;
+  transition: 0.9s;
+}
+
+.plus-icon a {
+  text-decoration: none;
+  color: black;
+}
+
+.plus-icon a:hover {
+  color: #ff408e;
+  cursor: pointer;
+}
+
+.see-detail a {
+  text-decoration: none;
+  color: #ff408e;
+}
+
+/* .product-item img{
+    width: 40px;
+    margin-inline-start: 5px;
+} */
+
+/* view more button */
+/* .view-more{
+    text-align: center;
+}
+.view-more button{
+    border: 1px solid #ff408e;
+    width: 350px;
+    padding: 16px 0px;
+    color: #ff408e;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #f9f9f9;
+}
+.view-more button:hover{
+    background-color: #ff408e;
+    color: white;
+} */
+
+
+/* new-page */
+
+.new-page-bg {
+  background-color: #f9f9f9;
+}
+
+.nav-tabs .tab-button {
+  text-align: center;
+  font-weight: 500;
+  color: black;
+  border: none;
+}
+
+.nav-link.tab-button.active {
+  border-bottom: 2px solid #ff408e;
+  background-color: #f9f9f9;
+  color: black;
+}
+
+.rated-star {
+  font-size: 13px;
+  color: #ff408e;
+}
+
+.review a {
+  text-decoration: none;
+  color: #ff408e;
+  font-weight: 500;
+}
+
+.product-name a {
+  text-decoration: none;
+  color: black;
+}
+
+.product-name a:hover {
+  color: #ff408e;
+}
+
+
+/* Featured Brand page */
+.fetured-brand-page {
+  background-color: #f9f9f9;
+}
+
+.add-queue-btn {
+  width: 300px;
+  background-color: #ff408e;
+  padding: 16px 0px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+}
+
+.add-queue-btn:hover {
+  background-color: #ff5fa0;
+}
+
+.product-img {
+  width: 144px;
+  height: 144px;
+}
+
+.read-more a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ff408e;
+}
+
+@media only screen and (max-width: 1000px) {
+  .product-img {
+    width: 100px;
+  }
+}
+
+
+/* All Brand page */
+
+.all-brand-bg {
+  background-color: #f9f9f9;
+}
+
+.tab-button-brand {
+  text-align: center;
+  color: black;
+  border: none;
+  background-color: #f9f9f9;
+  font-size: 14px;
+}
+
+.tab-button-brand.active {
+  border-bottom: 2px solid #ff408e;
+  font-weight: 600;
+}
+
+.letter {
+  font-size: 22px !important;
+  font-weight: 600;
+}
+
+.capital-letter {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.perfume-name a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+}
+
+/* expolore brand */
+
+
+.featurd-brand button {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  padding: 8px 24px;
+  border-radius: 40px;
+  background-color: white;
+  border: none;
+  font-weight: 600;
+}
+
+.explore-brand button {
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+}
+
+.explore-brand button:hover {
+  background-color: rgb(194, 194, 194);
+}
+
+.pamela-roland-info a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.discover-brand {
+  text-decoration: none;
+  color: black;
+}
+
+.discover-brand:hover {
+  color: black;
+}
+
+.clean-brand {
+  text-decoration: none;
+  color: black;
+}
+
+.clean-brand:hover {
+  color: black;
+}
+
+.view-products {
+  text-decoration: none;
+  color: #ff408e;
+  font-weight: 500;
+}
+
+.view-products:hover {
+  color: #ff408e;
+}
+
+
+/* fragrance pages */
+
+.fragrance-page-bg {
+  background-color: #f9f9f9;
+}
+
+.upgrade-product-btn {
+  border: none;
+  background-color: #ff408e;
+  color: white;
+  font-weight: 600;
+}
+
+.upgrade-product-btn:hover {
+  background-color: #ff5fa0;
+  transition: 0.9s;
+}
+
+.filter-collection p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.filter-collection a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.filter-collection a:active {
+  color: #ff408e;
+}
+
+.ratting-star-r {
+  color: #ff408e;
+}
+
+.ratting-star-s {
+  color: gainsboro;
+}
+
+.ratting-up {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.input-checkbox {
+  font-size: 24px;
+  background-color: #f2f5f8 !important;
+  border: 1px solid #dcdfe5 !important;
+  border-radius: 0% !important;
+  cursor: pointer;
+}
+
+.input-checkbox:focus {
+  box-shadow: none !important;
+}
+
+.input-checkbox:hover {
+  border: 1px solid #ff408e !important;
+}
+
+.input-checkbox:checked {
+  background-color: #ff408e !important;
+  border: #ff408e !important;
+}
+
+.form-check-text {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.form-scroll {
+  max-height: 450px;
+  overflow-y: scroll;
+}
+
+.flower-text {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: rgba(20, 20, 20, .5);
+  width: 100%;
+}
+
+.show-all-btn {
+  font-size: 14px;
+  background-color: #f9f9f9;
+  color: #ff408e;
+  font-weight: 400;
+  border: none;
+}
+
+.show-all-btn:hover {
+  border-bottom: 1px solid #ff408e;
+}
+
+.show-all-offcanvas {
+  width: 100%;
+  height: 100%;
+  max-width: 750px;
+}
+
+.offcanvas-personal-info {
+  background-color: #dddd;
+}
+
+.offcanvas-photo-gellary {
+  max-height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.clear-all-btn {
+  border: 1px solid #ff408e;
+  background-color: white;
+  font-weight: 500;
+  color: #ff408e;
+}
+
+.clear-all-btn:hover {
+  background-color: #ff408e;
+  color: white;
+}
+
+.apply-select-btn {
+  background-color: #ff408e;
+  color: white;
+  font-weight: 500;
+}
+
+.apply-select-btn:hover {
+  background-color: #ff5fa0;
+}
+
+.perfume-list {
+  background-color: #ffabae;
+}
+
+.product-rate-start {
+  font-size: 12px;
+}
+
+.product-review-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ff408e;
+}
+
+/* collection for monthly page */
+.colltection-month-bg {
+  background-color: #f9f9f9;
+}
+
+.tab-button-perfumes {
+  text-align: center;
+  font-weight: 600;
+  color: black;
+  border: none;
+  background-color: #f9f9f9;
+}
+
+.tab-button-perfumes.active {
+  border-bottom: 2px solid #ff408e;
+}
+
+.perfume-card {
+  background-color: #f9f9f9;
+}
+
+.perfume-female {
+  text-decoration: none;
+}
+
+.perfume-text {
+  color: black;
+}
+
+/* perfume monthly page */
+
+.perfume-month-bg {
+  background-color: #f9f9f9;
+}
+
+.perfume-logo img {
+  width: 25%;
+}
+
+.average-ratting {
+  font-size: 15px;
+  color: gray;
+}
+
+.floral-svg {
+  width: 70px;
+}
+
+.isabel-orana-bg {
+  background-color: white;
+}
+
+.isabel-orana-text {
+  font-weight: 600;
+}
+
+/* .shipment-product-card{
+    width: 100%;
+    height: 180px;
+} */
+
+/* .add-plus:hover{
+    color: #ff408e;
+    cursor: pointer;
+}
+.ratting-star{
+    color: #ff408e;
+}
+.recommendation-quiz{
+    text-decoration: none;
+    color: black;
+}
+.recommendation-quiz h1{
+    font-weight: 600;
+}
+.recommendation-quiz h1:hover{
+    color: #ff408e;
+} */
+
+.edit-address {
+  color: #ff408e;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.edit-address:hover {
+  color: #ff408e;
+}
+
+/* clean gragness page */
+.clean-fragness-bg {
+  background-color: #f9f9f9;
+}
+
+.tab-button-fragness {
+  text-align: center;
+  font-weight: 600;
+  color: black;
+  border: none;
+  background-color: #f9f9f9;
+}
+
+.tab-button-fragness.active {
+  border-bottom: 2px solid #ff408e;
+}
+
+/* gifts bambo charcol page */
+.price {
+  color: #ff408e;
+  font-weight: 700;
+}
+
+.price-value {
+  font-size: 25px;
+}
+
+.bambocharcol-img {
+  width: 157px;
+  height: 157px;
+}
+
+.bambo-charcoal-text {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.bambo-carocel {
+  width: 50%;
+  height: 50%;
+}
+
+/* all gifts page */
+.all-gifts-page {
+  background-color: #f9f9f9;
+}
+
+.gift-text {
+  font-weight: 300;
+}
+
+.gift-img {
+  width: 60%;
+}
+
+.choose-btn {
+  background-color: #ff408e;
+  color: white;
+  font-weight: 500;
+  border-radius: 0% !important;
+}
+
+.choose-btn:hover {
+  color: white;
+  background-color: #ff5fa0;
+}
+
+
+/* gifts card page*/
+
+.gifts-card-bg {
+  background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/hero_ff5a02.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-color: #f2f5f8;
+  background-size: cover;
+}
+
+.choose-gift {
+  background-color: white;
+}
+
+.best-seller-card {
+  border: 2px solid #ff408e;
+}
+
+.card-occasion {
+  background-color: #f2f5f8;
+}
+
+/* gifts for him page */
+
+.gift-him-bg {
+  background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/desktopMale_55836f.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.options-input {
+  width: 245px;
+  border: 1px solid #ff408e !important;
+}
+
+.gift-input-select {
+  background-color: white;
+  cursor: pointer;
+}
+
+.superhero-perfume {
+  color: #ff408e;
+  font-weight: 700;
+}
+
+.more-info-btn {
+  color: black;
+}
+
+.more-info-btn:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* gift subscription page */
+
+.gift-subscription-text {
+  max-width: 475px;
+}
+
+.subscription-header {
+  background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/vd-desctop_4e5f6d.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 584px;
+}
+
+.subscrib-valentine {
+  background-color: #f9f9f9;
+  width: 150px;
+  line-height: 16px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: #ff408e;
+  font-weight: 600;
+}
+
+.monthly-subscriptions {
+  margin-top: -185px;
+}
+
+.choose-btn-subscrip:focus {
+  box-shadow: none !important;
+}
+
+.chose-num {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #dddd;
+  border-radius: 50%;
+}
+
+.subscription-bottom-bg {
+  background-image: url(https://cdn.scentbird.com/assets/frontbird-site/images/background_9b1af4.jpg);
+  background-repeat: no-repeat;
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 520px;
+  background-size: contain;
+  background-position: right;
+}
+
+
+/* my queue page*/
+.my-queue-bg {
+  background-color: #f9f9f9;
+}
+
+.carosel-perivious-btn {
+  background-color: #ff408e;
+  border-radius: 100%;
+}
+
+.get-details-btn {
+  text-decoration: none;
+  color: #ff408e;
+  font-weight: 500;
+}
+
+.get-details-btn:hover {
+  color: #ff408e;
+}
+
+.queue-monthly-product {
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.explore-text {
+  font-weight: 600;
+}
+
+.explore-text:hover {
+  color: #ff408e;
+}
+
+/* Buy your queue page */
+
+.buy-queue {
+  max-width: 800px;
+}
+
+.buy-queue-text {
+  color: #ff408e;
+}
+
+.disable-btn {
+  background-color: #e6e6e6;
+  color: gray;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.disable-btn-l {
+  background-color: #f9f9f9;
+}
+
+
+/* Tracking page */
+
+.traking-background {
+  background-color: #f9f9f9;
+}
+
+.traking-page-bg {
+  background-color: white;
+}
+
+.delivery-options {
+  color: #ff408e;
+  font-weight: 500;
+}
+
+.delivery-options:hover {
+  color: #ff408e;
+}
+
+
+/* .add-cart-btn{
+    background-color: #ff408e;
+    color: white;
+    font-weight: 600;
+    border: none;
+    width: 100%;
+}
+.add-cart-btn:hover{
+    background-color: #ff5fa0;
+    transition: 0.9s;
+} */
+
+
+.add-all-button {
+  background-color: #ff408e;
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+
+.add-all-button:hover {
+  background-color: #ff5fa0;
+  transition: 0.9s;
+}
+
+/* carosel */
+.carousel-f {
+  background: white;
+}
+
+.carousel-cell {
+  width: 28%;
+  height: 378px;
+  margin-right: 10px;
+  background: white;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+  border-radius: 0% !important;
+}
+
+.carousel-cell.is-selected {
+  border: 1px solid #ff408e;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 300px;
+  font-size: 80px;
+  color: white;
+}
+
+.recomended-products {
+  text-decoration: none;
+  color: black;
+}
+
+.recomended-products:hover {
+  color: black;
+}
+
+.tracking-bottom-bg {
+  background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/birdWithScent_98d33d.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 196px;
+  background-position: center;
+}
+
+/* media query */
+
+@media only screen and (max-width: 700px) {
+  .carousel-cell {
+    width: 80%;
+  }
+}
+
+
+/* invite friends page */
+
+.invite-friends-bg {
+  background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/background_504d22.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 786px;
+  background-color: #f1a8a2;
+  background-size: cover;
+}
+
+.invite-friends {
+  font-size: 68px;
+  font-weight: 600;
+  color: #f6f0ef;
+}
+
+.friends-send-btn {
+  background-color: white;
+  border: none;
+  margin-inline-start: -50px;
+  height: 0%;
+  margin-top: 17px;
+  font-weight: 600;
+  color: gray;
+}
+
+.populer-icons a {
+  text-decoration: none;
+}
+
+.facebook-icons a img {
+  width: 96px;
+}
+
+.messenger-icons a img {
+  width: 96px;
+}
+
+.populer-icons {
+  width: 96px;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.friends-work-bg {
+  background-color: white;
+}
+
+.chose-num-friends {
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.program-num {
+  background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/perfume_5f682e.jpg");
+  width: 100%;
+  height: 432px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.scentbird-new-your {
+  max-width: 800px;
+}
+
+/*Retake queiz page  */
+
+.retake-quez-bg {
+  background-color: #141414;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.back-prevous a {
+  text-decoration: none;
+  color: #141414;
+}
+
+.back-prevous {
+  width: 190px;
+  background-color: white;
+  border-radius: 48px;
+  font-weight: 600;
+}
+
+.retake-background-img {
+  background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/bg-desktop_931686.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 600px;
+}
+
+.mascu-femini-btn {
+  padding-top: 450px;
+}
+
+.masculine-btn {
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+
+.masculine-btn:hover {
+  background-color: rgb(139, 139, 139);
+}
+
+
+/* quez page 01 */
+
+.back-btn-icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  padding-inline-end: 2px;
+  cursor: pointer;
+  color: #141414;
+  background: #fff;
+  border-radius: 100%;
+}
+
+.page-number {
+  background-color: white;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.choose-sopticat-bg {
+  background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/sophisticated-male_26cff2.jpg");
+  width: 100%;
+  height: 528px;
+  background-repeat: no-repeat;
+  padding-inline-start: 0px;
+  padding-inline-end: 0px;
+  position: relative;
+}
+
+.choose-items {
+  max-width: 276px;
+  padding-top: 220px;
+}
+
+.quez-f {
+  position: relative;
+}
+
+.choose-or {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  font-size: 12px;
+  line-height: 36px;
+  background: #141414;
+  border-radius: 36px;
+  color: white;
+  font-weight: 700;
+  margin-inline-start: -18px;
+  margin-top: -166px;
+}
+
+/* quez 02 */
+
+.casual-items-men {
+  background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/sophisticated-male_26cff2.jpg");
+  width: 100%;
+  height: 420px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.casual-text {
+  max-width: 127px;
+  padding-top: 250px;
+}
+
+/* Help line page */
+
+.help-line-bg {
+  background-color: white;
+}
+
+.contact-us a {
+  text-decoration: none;
+  color: #ff408e;
+  font-weight: 500;
+}
+
+.contact-us a:hover {
+  color: #ff408e;
+  border-bottom: 1px solid #ff408e;
+}
+
+.helpline-bg-img {
+  background-image: url("https://theme.zdassets.com/theme_assets/526881/db183760bac0330273474e20013471583089e414.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+}
+
+.search-input {
+  font-weight: 700;
+}
+
+.help-line-qus {
+  border-bottom: 1px solid #ddd;
+}
+
+.help-line-qus a {
+  text-decoration: none;
+  color: black;
+}
+
+.help-line-qus:hover {
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.scentbird-link a {
+  text-decoration: none;
+  color: #666;
+}
+
+.scentbird-link a:hover {
+  color: #666;
+  border-bottom: 1px solid #666;
+}
+
+@media only screen and (max-width: 700px) {
+  .scentbird-link {
+    text-align: center;
+  }
+}
+
+
+/* Reques Fragness page */
+
+.comment-form {
+  width: 800px;
+}
+
+.comment-input {
+  height: 270px;
+  font-weight: 600;
+  resize: none;
+}
+
+.comment-input:focus {
+  box-shadow: none !important;
+  border: 1px solid #ced4da;
+}
+
+.never-mind-btn {
+  border: none;
+  background-color: white;
+  font-weight: 600;
+  color: #6d6d6d;
+  font-size: 18px;
+}
+
+.never-mind-btn:hover {
+  background-color: #ff408e;
+  color: white;
+}
+
+.comment-submit-btn {
+  border: none;
+  background-color: #ff408e;
+  font-weight: 600;
+  color: white;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 700px) {
+  .comment-form {
+    width: 100%;
+  }
+}
+
+
+/* About us page */
+
+.about-us {
+  max-width: 772px;
+}
+
+.about-founder {
+  background-color: #f6f7f8;
+}
+
+.linkedin-link {
+  text-decoration: none;
+  font-weight: 600;
+  color: #ff408e;
+}
+
+.linkedin-link:hover {
+  color: #ff408e;
+}
+
+.click-here-link {
+  color: #ff408e;
+  font-weight: 600;
+}
+
+.click-here-link:hover {
+  color: #ff408e;
+  text-decoration: none;
+}
+
+
+
+/* For Press page */
+.for-press-page {
+  background-color: #f9f9f9;
+}
+
+.for-press {
+  background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/bg-desktop_c1e974.jpg");
+  width: 100%;
+  height: 790px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.press-contact {
+  background-color: white;
+}
+
+.scentbird-gmail {
+  text-decoration: none;
+  color: #ff408e;
+  font-weight: 500;
+}
+
+.scentbird-gmail:hover {
+  color: #ff408e;
+}
+
+.message-input {
+  height: 167px;
+  resize: none;
+}
+
+.our-story {
+  max-width: 856px;
+}
+
+.spotlight-products {
+  width: 100%;
+  height: 370px;
+  box-shadow: 0 2px 10px rgba(20, 26, 51, .08);
+}
+
+.spotlight-products-img {
+  background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/spotlight-1-bg_9ac8b1.jpg");
+  width: 100%;
+  height: 257px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+.buzz-feed {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+  padding-top: 90px;
+}
+
+
+/* Blog page */
+
+.blog-page-bg {
+  background-color: white;
+}
+
+.blog-header-bg {
+  background-color: #141414;
+}
+
+.blog-menu {
+  background-color: #141414;
+}
+
+.blog-menu-items {
+  color: white !important;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.blog-items-active {
+  color: #af6929 !important;
+}
+
+.blog-menu-items:hover {
+  color: #af6929 !important;
+}
+
+.blog-carousel-bg {
+  background-image: url("https://i0.wp.com/www.scentbird.com/blog/wp-content/uploads/2022/02/late-night-text.jpg?resize=780%2C420&amp;ssl=1&quot");
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog-carousel-p {
+  background-image: url("https://i0.wp.com/www.scentbird.com/blog/wp-content/uploads/2022/02/2a41c25c-c20f-4392-975c-73a9a81d091a-1.png?resize=780%2C516&amp;ssl=1&quot");
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog-carousel-text {
+  background-color: #141414;
+  opacity: 0.8;
+  color: white;
+}
+
+.blog-carousel {
+  padding-top: 370px;
+}
+
+.carousel-icons {
+  background-color: #af6929;
+  border-radius: 100%;
+}
+
+.blog-carosel-product-bg {
+  background-image: url("https://i0.wp.com/www.scentbird.com/blog/wp-content/uploads/2022/02/leather-cologne-collection-scentbird.jpg?fit=1170%2C1170&ssl=1");
+  width: 100%;
+  height: 246px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.blog-carosel-product-spot {
+  background-image: url("https://i0.wp.com/www.scentbird.com/blog/wp-content/uploads/2022/02/leather-cologne-collection-scentbird.jpg?fit=1170%2C1170&ssl=1");
+  width: 100%;
+  height: 246px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.blog-carosel-product-l {
+  background-image: url("https://i0.wp.com/www.scentbird.com/blog/wp-content/uploads/2022/02/leather-cologne-collection-scentbird.jpg?fit=1170%2C1170&ssl=1");
+  width: 100%;
+  height: 246px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.blog-carosel-product-q {
+  background-image: url("https://i0.wp.com/www.scentbird.com/blog/wp-content/uploads/2022/02/leather-cologne-collection-scentbird.jpg?fit=1170%2C1170&ssl=1");
+  width: 100%;
+  height: 246px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.blog-carousel-product {
+  padding-top: 137px;
+}
+
+.new-blog-text {
+  text-decoration: none;
+  color: #af6929;
+}
+
+.new-blog-text h6 {
+  font-weight: 600;
+}
+
+.new-blog-text h6:hover {
+  color: #af6929;
+}
+
+.bolg-underline {
+  border-bottom: 2px solid #af6929;
+}
+
+.blog-articel:hover {
+  color: #af6929;
+}
+
+.blog-articel-text:hover {
+  color: #af6929 !important;
+}
+
+.blog-read-more-btn {
+  border: none;
+  background-color: #C7a17f;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.blog-input-search {
+  width: 260px;
+  height: 45px;
+  border-radius: 0% !important;
+}
+
+.blog-input-search:focus {
+  box-shadow: none !important;
+  border: 1px solid #ced4da !important;
+}
+
+.blog-submit-input {
+  border: none;
+  height: 45px;
+  background-color: #f5f5f5;
+  font-weight: 600;
+}
+
+.blog-submit-input:hover {
+  background-color: #b79567;
+  color: white;
+  transition: 0.5s;
+}
+
+.blog-social-icons {
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  border: 1px solid #f1f1f1;
+}
+
+.blog-social-icons:hover {
+  background-color: #af6929;
+  border: 1px solid #af6929;
+}
+
+.blog-footer-icon:hover {
+  color: #b79567 !important;
+}
+
+.pagination-number:focus {
+  box-shadow: none !important;
+}
+
+.pagination-active {
+  background-color: #af6929;
+  color: white !important;
+}
+
+.pagination-active:hover {
+  box-shadow: none !important;
+  color: gray !important;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .blog-input-search {
+    width: 220px;
+  }
+}
+
+
+
+/* carrers page */
+.carrers-menubar {
+  background-color: #ffff;
+}
+
+.carres-menu-items {
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+.carres-menu-items:hover {
+  background-color: #e8bcb5;
+  color: white !important;
+  border: 2px solid #e8bcb5;
+}
+
+.carrers-bg {
+  background-image: url("https://gallery-cdn.breezy.hr/ea1cd628-1381-4a71-9711-e624870537e6/30738808_1683025405138827_9136620882955862016_o.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 480px;
+  background-color: white;
+  background-position: center;
+  opacity: 0.8;
+}
+
+.carrer-text {
+  font-size: 62px;
+}
+
+.view-openings-btn {
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+
+.certified-section-bg {
+  background-color: white;
+}
+
+.carrer-header-text {
+  margin-top: 50px;
+}
+
+.certified-section {
+  max-width: 900px;
+}
+
+.certified-section p {
+  font-size: 18px;
+}
+
+.medico-logo path {
+  color: white;
+}
+
+.carrers-logo-items {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(232, 189, 181);
+  border-radius: 100%;
+}
+
+.departments {
+  display: inline-block;
+  background-color: #e9e9ed;
+  border: none;
+}
+
+.departments:focus {
+  box-shadow: none !important;
+}
+
+.location-logo {
+  width: 15px;
+  height: 20px;
+}
+
+.location {
+  font-size: 22px;
+  padding-bottom: 0;
+}
+
+.location-apply-btn {
+  border: none;
+  background-color: #666666;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.location-apply-btn:hover {
+  background-color: #e8bab3;
+}
+
+.project-manager:hover {
+  background-color: gainsboro;
+  border-radius: 5px;
+}
+
+.carrers-footer-bg {
+  background-color: #444;
+}
+
+.carrers-footer-text {
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 700px) {
+  .carres-menu-items {
+    width: 50%;
+    text-align: center;
+  }
+}
+
+
+/* Empoloyes page */
+
+.employes-section-bg {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.employee-sign-in {
+  width: 500px;
+  height: 400px;
+  background-color: #f9fafa;
+  border-top: 9px solid #e8bab3;
+  margin-top: 50px;
+}
+
+.employees-input {
+  height: 45px;
+}
+
+.employee-email-btn {
+  border: none;
+  background-color: #666;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.employee-email-btn:hover {
+  background-color: #e8bab3;
+}
+
+/* products page review */
+
+.cathrine-page-bg {
+  background-color: #f9f9f9;
+}
+
+.cathrine-perfume {
+  background-color: white;
+}
+
+.cathrine-perfume-drem {
+  color: black;
+}
+
+.cathrine-perfume-drem:hover {
+  color: #ff408e;
+  cursor: pointer;
+}
+
+.cat-perfumes-info {
+  max-width: 488px;
+}
+
+.subscription-btn-img {
+  width: 20px;
+  height: 40px;
+}
+
+.brand-ratting-point {
+  color: #ff408e;
+  width: 16px;
+  height: 16px;
+}
+
+.brand-ratting-star {
+  color: #ff408e;
+  width: 12px;
+  height: 12px;
+}
+
+.cathrine-perfume-price {
+  color: #ff408e;
+  font-weight: 600;
+}
+
+.main-notes-img-text {
+  font-size: 14px;
+}
+
+.review-select-options {
+  font-size: 15px;
+  color: #666;
+  font-weight: 600;
+}
+
+.card-parent {
+  position: relative;
+}
+
+.card-tag {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.full-image {
+  position: relative;
+}
+
+.full-image .card-badges {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100px;
+}
+
+.card-level {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-height: 100px;
+}
+
+.product-details-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.cathrine-perfume-btn {
+  border: 1px solid #dadada;
+  background-color: white;
+}
+
+.cathrine-perfume-btn:hover {
+  border: 1px solid #ff408e;
+}
+
+.cathrine-perfume-btn:focus {
+  outline: 2px solid #ff408e !important;
+}
+
+.cathrine-monthly-btn {
+  width: 100%;
+}
+
+.learn-more-modal {
+  font-weight: 500;
+  color: #ff408e;
+}
+
+.learn-more-modal:hover {
+  color: #ff408e;
+}
+
+.cathrine-perfume-card {
+  cursor: pointer;
+}
+
+.customer-ratting-types {
+  width: 100%;
+  height: 162px;
+  cursor: pointer;
+  outline: none;
+}
+
+.customer-ratting-types:hover {
+  box-shadow: 0px 15px 40px gray !important;
+  transition: 0.3s all;
+}
+
+.customer-ratting-text:focus {
+  color: #ff408e !important;
+}
+
+.customer-ratting-types:focus {
+  outline: 1px solid #ff408e;
+}
+
+.ratting-progressbar {
+  background-color: #ff408e;
+}
+
+.write-review {
+  width: 100%;
+  background-color: white;
+}
+
+.review-devied-line {
+  display: flex;
+  flex-basis: 1px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  align-self: stretch;
+  background-color: #dadada;
+}
+
+.ratting-point {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.review-filter-input select:focus {
+  box-shadow: none !important;
+  border: 1px solid gray;
+}
+
+.review-button-tag {
+  border: 1px solid #dadada;
+  background-color: white;
+}
+
+.review-button-tag:focus {
+  border: 2px solid #ff408e;
+}
+
+.customer-review {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  background-image: linear-gradient(45deg, rgb(249, 194, 255), rgb(194, 255, 228));
+}
+
+.customer-review-text {
+  color: #141414;
+  font-weight: 500;
+}
+
+.customer-review-text:hover {
+  border-bottom: 1px solid black;
+}
+
+@media only screen and (max-width: 700px) {
+  .review-filter-input {
+    width: 50%;
+  }
+}
+
+/* shipment css */
+
+.shipment-bg {
+  height: 100%;
+  background-color: #f9f9f9;
+}
+
+.shipment-product-img {
+  width: 250px !important;
+}
+
+.shipping-car {
+  color: #ff408e;
+}
+
+.product-edit {
+  border: 1px solid #dcdfe5;
+}
+
+.month-subscription {
+  border-bottom: 1px solid #dcdfe5;
+}
+
+.discount-price {
+  color: #ff408e;
+  font-weight: 600;
+}
+
+.tax {
+  font-weight: 600;
+}
+
+.total-price {
+  text-align: end;
+}
+
+.coupon button {
+  border: none;
+  background-color: #ff408e;
+  color: white;
+  font-weight: 600;
+}
+
+.shipment-input {
+  box-shadow: none !important;
+}
+
+/* .amazon-payment-btn{
+    background-color: #fad676;
+    width: 300px;
+    border: none;
+}
+.paypal-payment-btn{
+    width: 300px;
+    border: none;
+    background-color: #2b70b6;
+    padding-top: 5px;
+    padding-bottom: 6px;
+}
+.payment-submit input{
+    width: 100%;
+    border: none;
+    background-color: #ff408e;
+    font-weight: 600;
+    color: white;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 20px;
+}
+.payment-submit input:hover{
+    background-color: #ff5fa0;
+    transition: 0.9s;
+} */
+
+
+
+
+/* signup  css */
+
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+._3HQfIb:last-child {
+  padding-inline-end: 16px;
+}
+
+._3HQfIb._2VR5Oa {
+  padding-left: 16px;
+}
+
+._3HQfIb {
+  height: 48px;
+  font-size: 18px;
+  border-radius: 0% !important;
+}
+
+._3HQfIb:focus {
+  box-shadow: none !important;
+  border: 1px solid #dcdfe5;
+}
+
+
+/* checkbox */
+._1t2zmy {
+  display: flex;
+  cursor: pointer;
+}
+
+._3BcAEw {
+  font-weight: 500;
+}
+
+._1Y8L7H {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+._1Y8L7H span:hover {
+  color: #ff408e;
+  text-decoration: none;
+}
+
+.small-text {
+  color: #ff408e;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.small-text:hover {
+  color: #ff408e;
+}
+
+.input-submit {
+  width: 100%;
+  height: 60px;
+  border: none;
+  background-color: #ff408e;
+  color: white;
+  font-weight: 600;
+}
+
+.input-submit:hover {
+  background-color: #ff5fa0;
+  transition: 0.9s;
+}
+
+.have-account {
+  font-weight: 500;
+}
+
+.social-login-btn {
+  width: 100%;
+  height: 55px;
+  font-weight: 600;
+  border: none;
+  background-color: white;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, .12), 0 2px 2px 0 rgba(0, 0, 0, .24)
+}
+
+.social-login-btn:hover {
+  box-shadow: 0px 3px 15px gray;
+  transition: 0.3s all;
+}
+
+.social-btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.login-apple-button {
+  width: 100%;
+  height: 55px;
+  font-weight: 600;
+  background-color: white;
+  border: 1px solid black;
+}
+
+._2Gnxyw {
+  color: #ff408e;
+}
+
+.radio-input-s+img+div {
+  display: none;
+}
+
+.radio-input-s:checked+img+div {
+  display: inline-block;
+}
+
+.radio-input-s:checked+img+div+div {
+  color: #ff408e;
+}
+
+
+
+/* singnin css */
+
+/* .login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+._3HQfIb:last-child {
+    padding-right: 16px;
+  }
+._3HQfIb._2VR5Oa {
+    padding-left: 16px;
+  }
+  ._3HQfIb {
+    height: 48px;
+    font-size: 18px;
+  } */
+
+
+/* checkbox */
+
+/* ._1t2zmy{
+    display: flex;
+    cursor: pointer;
+}
+._3BcAEw{
+    font-weight: 600;
+}
+._1Y8L7H{
+    font-weight: 600;
+    text-decoration: none;
+}
+._1Y8L7H span:hover{
+    color: #ff408e;
+    text-decoration: none;
+}
+.small-text{
+    color: #ff408e;
+    font-weight: 600;
+    cursor: pointer;
+}
+.input-submit{
+    width: 100%;
+    height: 60px;
+    border: none;
+    background-color: #ff408e;
+    color: white;
+    font-weight: 600;
+}
+
+.input-submit:hover{
+    background-color: #ff5fa0;
+    transition: 0.9s;
+}
+
+.have-account{
+    font-weight: 600;
+}
+
+.social-login-btn{
+    width: 100%;
+    height: 55px;
+    font-weight: 600;
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.12),0 2px 2px 0 rgba(0,0,0,.24)
+}
+.social-login-btn:hover{
+    box-shadow: 0px 3px 15px gray;
+    transition: 0.3s all;
+}
+.social-btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.login-apple-button{
+    width: 100%;
+    height: 55px;
+    font-weight: 600;
+    background-color: white;
+    border: 1px solid black;
+} */
+
+
+/* .radio-input-s:checked + img + div + div {
+    color: #ff408e;
+} */
+
+
+.forgot-pass-text a {
+  text-decoration: none;
+}
+
+.forgot-pass-text a p {
+  color: black;
+  font-weight: 500;
+}
+
+.forgot-pass-text a p:hover {
+  color: #ff408e;
+}
+
+.have-account-text a {
+  text-decoration: none;
+}
+
+.have-account-text a p {
+  color: #ff408e;
+  font-weight: 500;
+}
+
+small.gift-text {
+  color: #FF5FA0 !important;
+  font-weight: 600;
+}
+
+
+/* forgot  css */
+
+/* .login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+._3HQfIb:last-child {
+    padding-right: 16px;
+  }
+._3HQfIb._2VR5Oa {
+    padding-left: 16px;
+  }
+  ._3HQfIb {
+    height: 48px;
+    font-size: 18px;
+  } */
+
+
+/* checkbox */
+/* ._1t2zmy{
+    display: flex;
+    cursor: pointer;
+}
+._3BcAEw{
+    font-weight: 600;
+}
+._1Y8L7H{
+    font-weight: 600;
+    text-decoration: none;
+}
+._1Y8L7H span:hover{
+    color: #ff408e;
+    text-decoration: none;
+}
+.small-text{
+    color: #ff408e;
+    font-weight: 600;
+    cursor: pointer;
+} */
+
+.navbar-brand-logo {
+  max-height: 50px;
+}
+
+.reset-password-input {
+  width: 70%;
+  height: 60px;
+  border: none;
+  background-color: #ff408e;
+  color: white;
+  font-weight: 600;
+}
+
+.reset-password-input:hover {
+  background-color: #ff5fa0;
+  transition: 0.9s;
+}
+
+.back-login a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #ff408e;
+}
+
+.back-login a:hover {
+  color: #ff408e;
+  border-bottom: 1px solid #ff408e;
+}
+
+
+/* .social-login-btn{
+    width: 100%;
+    height: 55px;
+    font-weight: 600;
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.12),0 2px 2px 0 rgba(0,0,0,.24)
+}
+.social-login-btn:hover{
+    box-shadow: 0px 3px 15px gray;
+    transition: 0.3s all;
+}
+.social-btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.login-apple-button{
+    width: 100%;
+    height: 55px;
+    font-weight: 600;
+    background-color: white;
+    border: 1px solid black;
+}
+.radio-input-s:checked + img + div + div {
+    color: #ff408e;
+} */
+
+
+/* .forgot-pass-text a{
+    text-decoration: none;
+}
+.forgot-pass-text a p{
+    color: black;
+    font-weight: 600;
+}
+.forgot-pass-text a p:hover{
+    color: #ff408e;
+}
+.have-account-text a{
+    text-decoration: none;
+}
+.have-account-text a p{
+    color: #ff408e;
+    font-weight: 600;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* reviews page */
+.review-page-bg {
+  background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/background_1ee208.jpg");
+  width: 100%;
+  height: 640px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.look-reviews {
+  padding-top: 300px;
+}
+
+.look-reviews-text {
+  color: #ff408e;
+}
+
+.video-review-section {
+  background-color: #f9f9f9;
+}
+
+.video-review-text {
+  color: black;
+}
+
+.video-review-text:hover {
+  color: #ff408e;
+}
+
+.review-next-btn {
+  border: 1px solid #ff408e;
+  width: 350px;
+  padding: 16px 0px;
+  color: #ff408e;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: white;
+}
+
+.review-next-btn:hover {
+  background-color: #ff408e;
+  color: white;
+}
+
+.review-reply-button {
+  border: none;
+  background-color: #f9f9f9;
+  color: #9b9b9b;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.customer-review-vote {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.reply-textarea {
+  width: 100%;
+  height: 120px;
+  box-shadow: none !important;
+}
+
+.reply-textarea:focus {
+  border: 1px solid #ced4da;
+}
+
+.review-reply-btn {
+  border: none;
+  background-color: #ff408e;
+  color: white;
+  font-weight: 600;
+}
+
+.review-cancel-btn {
+  border: none;
+  background-color: #f9f9f9;
+  color: #6d6d6d;
+  font-weight: 600;
+}
+
+.review-cancel-btn:hover {
+  background-color: rgb(243, 255, 254);
+}
+
+.small-img-button {
+  border: none;
+  padding: 0;
+}
+
+.small-img-button:focus {
+  outline: 1px solid #9b9b9b !important;
+}
+
+.reply-product-svg {
+  width: 30px;
+  height: 30px;
+}
+
+.review-small-img {
+  width: 51px;
+  height: 51px;
+}
+
+.product-badge {
+  width: 50px;
+  height: 38px;
+  display: block;
+}

@@ -1,0 +1,226 @@
+@import "functions";
+@import "variables";
+@import "mixins";
+
+.all-products-of-months,
+.product-of-the-month {
+  padding: 100px 0 100px 0;
+}
+
+.product-of-the-month .product-img {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+}
+
+.perfume-logo img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.product-info {
+  margin-top: 1rem;
+
+  h2 {
+    text-align: center;
+    color: $black;
+    font-size: 50px;
+    line-height: 60px;
+    font-family: 'TT Norms Pro', sans-serif;
+  }
+
+  .ratings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  p.description {
+    text-align: center;
+    font-size: 1rem;
+    color: #313131;
+    margin-bottom: 0;
+  }
+}
+
+.floral-card {
+  padding: 1rem 0;
+
+  p {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  h3 {
+    font-family: "TT Norms Pro", sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+    color: $black;
+  }
+
+  .floral-svg {
+    width: 82px;
+    height: 82px;
+    object-fit: contain;
+  }
+}
+
+blockquote.blockquote {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  font-style: italic;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: #d1d1d1;
+  }
+}
+
+.more-about {
+  h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-family: 'TT Norms Pro', sans-serif;
+    margin-bottom: 0;
+  }
+
+  img {
+    margin: 1rem 0;
+  }
+}
+
+.other-fragrances {
+  h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-family: 'TT Norms Pro', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 0;
+  }
+
+  a.btn-show-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+}
+
+// month card
+.all-products-of-months-title {
+  font-size: 40px;
+  line-height: 50px;
+  font-family: 'TT Norms Pro', sans-serif;
+  text-transform: capitalize;
+}
+
+.month-card {
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: $pink-1;
+  }
+
+  h3,
+  p {
+    padding: 0 1rem;
+  }
+
+  h3 a {
+    text-decoration: none;
+    color: $black;
+
+    &:hover {
+      color: $pink-1;
+    }
+  }
+
+  // .month-badge {
+
+  // }
+}
+
+@include media-breakpoint-down(lg) {
+
+  .all-products-of-months,
+  .product-of-the-month {
+    padding: 60px 0 60px 0;
+  }
+
+  .product-of-the-month .product-img {
+    height: 400px;
+  }
+
+  .product-info h2 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .floral-card h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .more-about h2,
+  .other-fragrances h2,
+  .all-products-of-months-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@include media-breakpoint-down(md) {
+
+  .all-products-of-months,
+  .product-of-the-month {
+    padding: 35px 0 35px 0;
+  }
+
+  .product-of-the-month .product-img {
+    height: 350px;
+  }
+
+  .product-info h2 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .floral-card h3 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .floral-card .floral-svg {
+    width: 62px;
+    height: 62px;
+  }
+
+  .more-about h2,
+  .other-fragrances h2,
+  .all-products-of-months-title {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .month-card {
+
+    h3,
+    p {
+      padding: 0 0.5rem;
+    }
+  }
+}

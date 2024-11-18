@@ -1,0 +1,148 @@
+body{
+    overflow-x: hidden;
+}
+.carousel-slider-bg{
+    background-color: #ff408e;
+    color: white ;
+    font-weight: 400;
+}
+.treanding-page-bg{
+    background-color: #f9f9f9;
+}
+.edit-address{
+    color: #ff408e;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+.edit-address:hover{
+    color: #ff408e;
+}
+.uppcoming-shipping-p:hover{
+    color: #ff408e;
+    cursor: pointer;
+}
+.purcase-price{
+    color: #ff408e;
+    font-weight: 600;
+}
+.add-cart-btn{
+    background-color: #ff408e;
+    color: white;
+    font-weight: 600;
+    border: none;
+    width: 100%;
+}
+.add-cart-btn:hover{
+    background-color: #ff5fa0;
+    transition: 0.9s;
+}
+.shipment-product-card{
+    width: 100%;
+    height: 180px;
+}
+.recommendation-quiz{
+    text-decoration: none;
+    color: black;
+}
+.recommendation-quiz h1{
+    font-weight: 600;
+}
+.recommendation-quiz h1:hover{
+    color: #ff408e;
+}
+.add-plus:hover{
+    color: #ff408e;
+    cursor: pointer;
+}
+.ratting-star{
+    color: #ff408e;
+}
+.thumbs-up-icon i{
+    font-size: 30px;
+    cursor: pointer;
+}
+.recomend-product-card{
+    box-shadow: 0 4px 32px rgba(62,18,35,.2);
+    z-index: 0;
+    transition: 0.3s all;
+}
+.recomend-product-card:hover{
+    box-shadow: 0px 5px 40px gray;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+.rated-product-name{
+    width: 130px;
+}
+.rated-star{
+    font-size: 10px;
+    color: #ff408e;
+}
+.rated-add-btn button{
+    border: 1px solid #ff408e;
+    background-color: white;
+    color: #ff408e;
+    font-weight: 500;
+}
+.rated-add-btn button:hover{
+    background-color: #ff408e;
+    color: white;
+    transition: 0.5s all;
+}
+.card-flower{
+    border-radius: 100%;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+.card-flower:hover{
+    background-color: #ffd7e7;
+}
+.card-flower-name{
+    margin-inline-start: 35px;
+}
+.montly-product-card{
+    height: 159px;
+}
+.card-select-btn{
+    text-align: end;
+    color: #ff408e;
+}
+.monthly-purces-card{
+    cursor: pointer;
+}
+.free{
+    color: #ff408e;
+}
+.under-line{
+    border: 2px solid gray;
+}
+.back-button{
+    border: none;
+    color: gray;
+    background-color: white;
+    font-weight: 700;
+}
+.back-button:hover{
+    background-color: #b3d4fc;
+    transition: 0.5s all;
+}
+.confirm-button{
+    border: none;
+    color: white;
+    background-color: #ff408e;
+    font-weight: 700;
+}
+
+.menu-bar li a{
+    font-size: 14px;
+    font-weight: 600;
+    color: black!important;
+
+}
+.menu-bar li a:hover{
+    color: #ff408e!important;
+}

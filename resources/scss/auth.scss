@@ -1,0 +1,221 @@
+@import "functions";
+@import "variables";
+@import "mixins";
+
+.auth-card {
+  margin-top: 5.312rem;
+}
+
+.auth-card h3 {
+  font-family: 'TT Norms Pro', sans-serif;
+  font-size: 3.437rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.09;
+  letter-spacing: normal;
+  text-align: start;
+  color: #000;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+
+.auth-links a {
+  font-family: 'TT Norms Pro', sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: start;
+  color: #5850c9;
+  text-decoration: none;
+}
+
+.auth-links a.muted {
+  color: #5d5d5d;
+}
+
+.auth-links {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.social-buttons .btn {
+  margin-bottom: 10px;
+}
+
+.social-buttons .btn:last-child {
+  margin-bottom: 0;
+}
+
+.auth-card hr {
+  background-color: #d5d5d5;
+  height: 1px;
+}
+
+.social-buttons {
+  //margin-bottom: 113px;
+}
+
+.copyright-text {
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  padding: 25px 0 21px;
+}
+
+/* Only For Register Page */
+.genders h6 {
+  font-family: 'TT Norms Pro',
+    sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: start;
+  color: #000;
+}
+
+.gender-box {
+  height: 95px;
+  border: none;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 4px;
+}
+
+.gender-box {
+  position: relative;
+}
+
+.gender-box .radio-check {
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  display: none;
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="radio"]:checked+.gender-box {
+  border: solid 1px #000;
+  background-color: #fff;
+}
+
+input[type="radio"]:checked+.gender-box .radio-check {
+  display: grid;
+}
+
+.gender-box span {
+  text-align: start;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: #000000;
+  margin-top: 5px;
+}
+@media (max-width: 768px) {
+    .gender-box span {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+}
+
+.gender-box {
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.form-check-input:checked {
+  background-color: #000;
+  border: none;
+}
+
+.form-check-input:focus {
+  box-shadow: none;
+}
+
+.form-check .form-check-input {
+  border-color: #000;
+}
+
+.auth-card input[type="checkbox"]+label {
+  letter-spacing: 0px;
+  color: #000000;
+  margin-inline-start: 11px;
+}
+
+.auth-card .form-check {
+  margin-bottom: 15px;
+}
+
+p.toc {
+  text-align: center;
+  font: normal normal normal 17px/22px "TT Norms Pro";
+  letter-spacing: 0px;
+  color: #5d5d5d;
+  margin: 18px 22px;
+}
+
+.link-and-text {
+  font: normal normal normal 17px/22px "TT Norms Pro";
+  letter-spacing: 0px;
+  color: #000000;
+  text-align: center;
+}
+
+.link-and-text a {
+  text-decoration: underline !important;
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #5850c9;
+  font-family: 'TT Norms Pro', sans-serif;
+}
+
+.form-check-input {
+  width: 17px;
+  height: 17px;
+  border-radius: 4px;
+}
+
+@include media-breakpoint-down(md) {
+  .auth-card {
+    margin-top: 3.5rem;
+  }
+
+  .auth-card h3 {
+    font-size: 1.875rem;
+  }
+
+  .auth-links a {
+    font-size: 15px;
+  }
+
+  .auth-card input[type="checkbox"]+label {
+    font-size: 15px;
+  }
+
+  p.toc,
+  .link-and-text {
+    font-size: 15px;
+  }
+
+  .social-buttons {
+    padding: 25px !important;
+  }
+}

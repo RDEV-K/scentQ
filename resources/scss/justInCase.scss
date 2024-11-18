@@ -1,0 +1,88 @@
+@import "functions";
+@import "variables";
+@import "mixins";
+
+section.just-in-case {
+  padding: 3.7rem 0 5.5rem 0;
+
+  .img-thumbnail {
+    min-height: 300px;
+    padding: 0;
+
+    img {
+      min-height: 300px;
+      object-fit: cover;
+    }
+  }
+
+  h1 {
+    color: $black;
+    font-size: 80px;
+    line-height: 100px;
+    font-family: 'TT Norms Pro', sans-serif;
+    margin: 0;
+    margin-top: 1rem;
+  }
+
+  p {
+    color: #313131;
+    font-size: 25px;
+    line-height: 33px;
+    margin: 0;
+    margin-bottom: 2.25rem;
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  section.just-in-case {
+    padding: 3.75rem 0 3.75rem 0;
+
+    h1 {
+      font-size: 60px;
+      line-height: 80px;
+    }
+
+    p {
+      font-size: 22px;
+      line-height: normal;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  section.just-in-case {
+    padding: 3.75 0 3.75rem 0;
+
+    h1 {
+      font-size: 40px;
+      line-height: normal;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: normal;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  section.just-in-case {
+    padding: 2.15rem 0 3.25rem 0;
+
+    h1 {
+      font-size: 25px;
+      line-height: 35px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 15px;
+      margin-bottom: 2rem;
+    }
+
+    a.btn {
+      display: block;
+      padding: 1rem;
+    }
+  }
+}

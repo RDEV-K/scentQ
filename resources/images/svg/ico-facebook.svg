@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <clipPath id="2hal22k0ca">
+            <path data-name="Rectangle 216" transform="translate(1686.574 142)" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="facebook (2)" transform="translate(-1686.574 -142)" style="clip-path:url(#2hal22k0ca)">
+        <path data-name="Path 3974" d="M12 24H6a6 6 0 0 1-6-6V6a6 6 0 0 1 6-6h12a6 6 0 0 1 6 6v12a6 6 0 0 1-6 6h-2.25A1.875 1.875 0 1 0 12 24z" transform="translate(1686.574 142)" style="fill-rule:evenodd;fill:#3764b9"/>
+        <path data-name="Path 3975" d="M11.25 6.75H18a3.375 3.375 0 0 0 .345-6.733C18.23.011 18.117 0 18 0H6a6 6 0 0 0-6 6v12A11.25 11.25 0 0 1 11.25 6.75" transform="translate(1686.574 142)" style="fill:#507dd2;fill-rule:evenodd"/>
+        <path data-name="Path 3976" d="M14.5 10.25a6 6 0 1 0 6 6v-12a6 6 0 0 1-6 6" transform="translate(1690.074 143.75)" style="fill:#1e4ba0;fill-rule:evenodd"/>
+        <path data-name="Path 3977" d="M16.875 5.656a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 0-.75.75v3h2.835a.75.75 0 0 1 .735.9l-.45 2.25a.75.75 0 0 1-.735.6h-2.385v9h-3.75v-9h-2.25a.75.75 0 0 1-.75-.75v-2.25a.75.75 0 0 1 .75-.75h2.25v-3a4.5 4.5 0 0 1 4.5-4.5h2.25a.75.75 0 0 1 .75.75z" transform="translate(1689.199 143.094)" style="fill:#fff;fill-rule:evenodd"/>
+    </g>
+</svg>
