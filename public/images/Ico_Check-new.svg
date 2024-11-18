@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_76" data-name="Rectangle 76" width="20" height="20" transform="translate(14 14)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Ico_Check" transform="translate(-14 -14)" clip-path="url(#clip-path)">
+    <path id="check" d="M18.6,3.692,7.083,15.206a.833.833,0,0,1-1.181,0L1.449,10.749a.833.833,0,0,0-1.181,0h0a.833.833,0,0,0,0,1.181l4.455,4.454a2.506,2.506,0,0,0,3.541,0L19.778,4.872a.833.833,0,0,0,0-1.18h0a.833.833,0,0,0-1.181,0Z" transform="translate(13.977 13.719)" fill="#fff"/>
+  </g>
+</svg>

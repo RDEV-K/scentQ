@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewBox="0 0 17 17">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_234" data-name="Rectangle 234" width="17" height="17" transform="translate(819 1141)" fill="#34895c"/>
+    </clipPath>
+  </defs>
+  <g id="Ico_Lock" transform="translate(-819 -1141)" clip-path="url(#clip-path)">
+    <g id="lock" transform="translate(819 1141)">
+      <path id="Path_4040" data-name="Path 4040" d="M13.458,5.967V4.958a4.958,4.958,0,0,0-9.917,0V5.967A3.542,3.542,0,0,0,1.417,9.208v4.25A3.546,3.546,0,0,0,4.958,17h7.083a3.546,3.546,0,0,0,3.542-3.542V9.208A3.542,3.542,0,0,0,13.458,5.967Zm-4.25,6.075a.708.708,0,1,1-1.417,0V10.625a.708.708,0,0,1,1.417,0Zm2.833-6.375H4.958V4.958a3.542,3.542,0,1,1,7.083,0Z" fill="#34895c"/>
+    </g>
+  </g>
+</svg>

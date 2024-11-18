@@ -1,0 +1,162 @@
+@import "functions";
+@import "variables";
+@import "mixins";
+
+// top bar
+.btn-add-to-queue {
+  text-align: center;
+}
+
+// top bar
+
+// profile main content
+
+.profile-button {
+  margin: 31px 0;
+}
+
+.profile-button a.btn:after {
+  display: none;
+}
+
+.profile-btns-up {
+  display: flex;
+  gap: 12px 18px;
+  flex-flow: row wrap;
+}
+
+.profile-button a.btn {
+  border-bottom: 2px solid #00000017;
+  padding: 16px 0;
+  text-align: start;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: capitalize;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  font-size: 17px;
+  font-family: "TT Norms Pro", sans-serif;
+}
+
+.profile.profile-content {
+  padding-top: 3.6875rem;
+  padding-bottom: 6.25rem;
+}
+
+.profile-contant p {
+  text-align: start;
+  letter-spacing: 0px;
+  color: #313131;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 17px;
+  line-height: 22px;
+  font-family: 'TT Norms Pro', sans-serif;
+}
+
+.profile-contant p a.email {
+  text-align: start;
+  letter-spacing: 0px;
+  color: #000000;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-stretch: normal;
+  font-size: 19px;
+  text-decoration: none;
+  font-family: 'TT Norms Pro', sans-serif;
+}
+
+.profile-status,
+.profile-buttons {
+  display: none;
+}
+
+// 'profile nav-menu sticky-top' has the same z-index
+// so give the mobile header more power 🔥
+.profile.mobile-header {
+  z-index: 1050;
+}
+
+// profile main content
+
+@include media-breakpoint-down(xl) {
+  .profile.profile-content {
+    padding-top: 2rem;
+    padding-bottom: 3.125rem;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .profile.profile-content {
+    padding-top: 1.4rem;
+    padding-bottom: 2.8rem;
+  }
+
+  .anchor-tab {
+    display: flex;
+    justify-content: center;
+
+    a {
+      flex: 1;
+    }
+  }
+
+  .btn-gr-lg {
+    display: none;
+  }
+
+  .profile-status {
+    display: block;
+    list-style-type: none;
+    margin: 8px 0 15px 0;
+    padding: 0;
+
+    li {
+      border-bottom: 2px solid #00000017;
+      padding: 16px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #313131;
+      font-family: 'TT Norms Pro', sans-serif;
+      font-size: 1rem;
+
+      span {
+        color: #000;
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 17px;
+      }
+    }
+  }
+
+  .profile-buttons {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    a.btn {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 1rem;
+      font-family: 'TT Norms Pro', sans-serif;
+    }
+  }
+
+  .profile-contant p {
+    text-align: center;
+  }
+}

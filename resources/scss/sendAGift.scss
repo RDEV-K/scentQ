@@ -1,0 +1,358 @@
+@import "functions";
+@import "variables";
+@import "mixins";
+
+// gift subscription header section
+
+.gift-section-header-content {
+  padding: 5rem 0 11.25rem 0;
+
+  h1 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 6.25rem;
+    line-height: 6.25rem;
+    font-family: 'TT Norms Pro', sans-serif;
+    margin: 1.5rem 0 1.4rem 0;
+  }
+
+  p {
+    color: #313131;
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  span {
+    background: $pink-1;
+    color: $white;
+    font-size: 17px;
+    line-height: 27px;
+    font-family: 'TT Norms Pro', sans-serif;
+    padding: 10px 41px;
+    display: inline-block;
+  }
+}
+
+// gift subscription card style
+.gift-subscription-card {
+  margin-top: -131px;
+
+  .gift-subscription-card-title {
+    color: #000000;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "TT Norms Pro", sans-serif;
+  }
+}
+
+.single-subscription-card {
+  padding: 30px;
+  background: $white;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.09);
+
+  h2 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+    font-family: 'TT Norms Pro', sans-serif;
+    margin-bottom: 0px;
+  }
+
+  .subscription-price {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    font-family: "TT Norms Pro", sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    margin: 4px 0 14px 0;
+  }
+
+  ul {
+    padding: 10px 0 36px 20px;
+  }
+
+  ul li {
+    color: #313131;
+    font-size: 17px;
+    line-height: 27px;
+  }
+
+  a.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-family: "TT Norms Pro", sans-serif;
+    font-size: 17px;
+    color: $white;
+    text-transform: capitalize;
+  }
+}
+
+// gift subscription card style
+
+// gift subscription How to section style
+section.gift-subscription.how-to.section {
+  margin-top: 0;
+  padding-top: 85px;
+}
+
+// gift subscription feature style
+section.gift-subscription-features {
+  margin-bottom: 12.5rem;
+
+  .feature-wrapper {
+    background: $white;
+    padding-inline-start: 30px;
+    padding-inline-end: 30px;
+  }
+}
+
+// top product gift section
+.gift-top-product {
+  background-position: right top;
+  padding: 100px 0 92px 0;
+
+  .gift-top-product-image {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: translateY(-50%);
+
+    img {
+      width: 14.25rem;
+    }
+  }
+
+  .gift-top-product-content {
+    margin: 6.9375rem 0;
+
+    h3 {
+      color: $black;
+      font-weight: 500;
+      font-size: 50px;
+      line-height: 60px;
+      font-family: 'TT Norms Pro', sans-serif;
+      margin-bottom: 2px;
+    }
+
+    p {
+      color: $black;
+      font-family: "TT Norms Pro", sans-serif;
+      font-size: 20px;
+      line-height: 27px;
+    }
+  }
+}
+
+//top product gift section
+
+@include media-breakpoint-down(xxl) {
+  .gift-top-product {
+    padding: 100px 0 80px 0;
+  }
+}
+
+@include media-breakpoint-down(xl) {
+  .gift-section-header-content {
+    padding: 3rem 0 9rem 0;
+
+    h1 {
+      font-size: 5rem;
+      line-height: 5rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .gift-subscription-card {
+    .gift-subscription-card-title {
+      font-size: 18px;
+      line-height: 27px;
+    }
+  }
+
+  .single-subscription-card {
+    padding: 24px;
+
+    ul {
+      padding: 10px 0 26px 20px;
+    }
+
+    ul li {
+      font-size: 1rem;
+    }
+
+    a.btn {
+      font-size: 1rem;
+
+      img {
+        display: none;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .gift-section-header-content {
+    padding: 3rem 0 3rem 0;
+
+    h1 {
+      font-size: 4.5rem;
+      line-height: 5.5rem;
+    }
+  }
+
+  .gift-subscription-card {
+    margin-top: 0;
+    padding: 60px 0;
+
+    .gift-subscription-card-title {
+      font-size: 18px;
+      line-height: 27px;
+    }
+  }
+
+  .single-subscription-card {
+    padding: 24px;
+
+    ul {
+      padding: 10px 0 26px 20px;
+    }
+
+    a.btn {
+      img {
+        display: initial;
+      }
+    }
+  }
+
+  section.gift-subscription.how-to.section {
+    padding-top: 0;
+  }
+
+  section.gift-subscription-features {
+    margin-bottom: 10rem;
+  }
+
+  .gift-top-product {
+    padding: 80px 0 80px 0;
+
+    .gift-top-product-image {
+      img {
+        width: 12rem;
+      }
+    }
+
+    .gift-top-product-content {
+      margin: 5rem 0 2rem 0px;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .gift-section-header-content {
+    h1 {
+      font-size: 4rem;
+      line-height: 4.5rem;
+    }
+  }
+
+  .gift-subscription-card {
+    padding: 35px 0;
+  }
+
+  .single-subscription-card {
+    padding: 1rem;
+
+    h2 {
+      font-size: 20px;
+      line-height: 27px;
+      font-family: "TT Norms Pro", sans-serif;
+    }
+
+    .subscription-price {
+      font-size: 1rem;
+      line-height: 22px;
+    }
+
+    ul {
+      padding: 4px 0 16px 20px;
+    }
+
+    ul li {
+      font-size: 14px;
+    }
+
+    a.btn {
+      font-size: 1rem;
+
+      img {
+        display: none;
+      }
+    }
+  }
+
+  section.gift-subscription.how-to.section {
+    padding-top: 30px;
+  }
+
+  section.gift-subscription-features {
+    margin-bottom: 6rem;
+
+    .feature-wrapper {
+      background: $white;
+      padding-inline-start: 1rem;
+      padding-inline-end: 1rem;
+    }
+  }
+
+  .gift-top-product {
+    padding: 80px 0 50px 0;
+
+    .gift-top-product-image {
+      img {
+        width: 8rem;
+      }
+    }
+
+    .gift-top-product-content {
+      margin: 0;
+
+      h3 {
+        font-size: 40px;
+        line-height: 45px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 27px;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .gift-section-header-content {
+    h1 {
+      font-size: 3rem;
+      line-height: 3.25rem;
+    }
+  }
+
+  .single-subscription-card {
+    a.btn {
+      img {
+        display: initial;
+      }
+    }
+  }
+}

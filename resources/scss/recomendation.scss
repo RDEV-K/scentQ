@@ -1,0 +1,140 @@
+@import "functions";
+@import "variables";
+@import "mixins";
+
+.recomendation-section {
+  padding: 100px 0 100px 0;
+}
+
+.header-info {
+  h4 {
+    font-family: "TT Norms Pro", sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #313131;
+  }
+
+  h5 {
+    font-family: "TT Norms Pro", sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    color: #313131;
+  }
+
+  h1 {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 40px;
+    line-height: 55px;
+    margin-top: 1rem;
+    color: $black;
+  }
+}
+
+ul.nav-tabs {
+  border: 0;
+
+  .nav-item {
+    flex: 1;
+  }
+
+  .tab-button-reco {
+    border: 0;
+    border-bottom: 2px solid #ced4da;
+    background: transparent;
+    color: #313131;
+    font-family: "TT Norms Pro", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0.25rem 1rem;
+    width: 100%;
+
+    &.active {
+      color: $pink-1;
+      border-bottom: 2px solid $pink-1;
+    }
+  }
+}
+
+h3.preference-title {
+  h5 {
+    font-family: "TT Norms Pro", sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+    color: $black;
+  }
+}
+
+.preference-card {
+  height: 100%;
+
+  img {
+    height: 250px;
+    object-fit: cover;
+  }
+}
+
+.fragrance-profile {
+  h2 {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    color: $black;
+  }
+
+  p {
+    font-size: 1rem;
+    color: #313131;
+  }
+
+  .slide-img {
+    height: 300px;
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .recomendation-section {
+    padding: 60px 0 60px 0;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .recomendation-section {
+    padding: 35px 0 35px 0;
+  }
+
+  .fragrance-profile {
+    h2 {
+      font-size: 30px;
+      line-height: normal;
+    }
+  }
+
+  .header-info {
+    h4 {
+      font-size: 16px;
+      line-height: normal;
+    }
+
+    h5 {
+      font-size: 18px;
+      line-height: normal;
+    }
+
+    h1 {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+
+  ul.nav-tabs {
+    .tab-button-reco {
+      font-family: "TT Norms Pro", sans-serif;
+      font-size: 14px;
+      line-height: normal;
+      padding: 0.5rem 0px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+/* footer */
+.footer-bg{
+    background-color: black;
+}
+.footer-about p:hover{
+    color: #ff408e;
+    cursor: pointer;
+}
+
+/* footer socail icon */
+.social-icon svg{
+    width: 30px;
+}
+.social-icon svg:hover{
+    transition: 0.5s;
+    color: gray;
+    cursor: pointer;
+}
+
+/* footer input button  */
+.form-control{
+    height: 50px;
+}
+
+/*  */
+.product-item img{
+    width: 40px;
+    margin-inline-start: 5px;
+}
+/* footer under line */
+
+
+.footer-botom{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-botom-text span{
+    margin-inline-start: 15px;
+}
+.footer-botom-text span:hover{
+    transition: 0.5s;
+    color: gray;
+    cursor: pointer;
+}

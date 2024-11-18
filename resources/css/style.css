@@ -1,0 +1,152 @@
+/* font family */
+body{
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.offer{
+    background-color: black;
+}
+
+/* top header section */
+.top-header-section{
+    background-color: #da9399;
+}
+
+/* navbar */
+.navbar{
+    border-bottom: 1px solid hsla(0,0%,100%,.3);
+}
+.men-women small{
+    font-size: 20px;
+    font-weight: 600;
+}
+/* navbar offcanvas */
+ .btn-check:focus + .btn, .btn:focus{
+    box-shadow: none !important;
+}
+.offcanvas-text{
+    margin-top: 80px;
+    margin-inline-start: 30px;
+}
+.offcanvas-text h3{
+    font-weight: 600;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.offcanvas-text h3:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.get-disscount{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.get-disscount h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.get-disscount p{
+    font-weight: 700;
+}
+/* top quality section */
+.top-quality{
+    background-color: #ffebf3;
+    margin-top: 140px;
+}
+.top-quality img{
+    margin-top: -60px;
+}
+/* quiz button */
+.quiz-button{
+    border: none;
+    width: 250px;
+    padding: 16px 0px;
+    background-color: #ff408e;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.quiz-button a{
+    color: #fff;
+}
+.quiz-button:hover{
+    background-color: #ff5fa0;
+    transition: 0.9s;
+}
+.quiz-button:hover{
+    transition: 0.9s;
+}
+
+/* feelings mysterious-section */
+.mysterious-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* product section */
+.product-section{
+    background-color: #f9f9f9;
+}
+
+/* product-card */
+.card{
+    border: none;
+    box-shadow: 0 4px 32px rgba(62,18,35,.2);
+    z-index: 0;
+    transition: 0.3s all;
+}
+.card:hover{
+   box-shadow: 0px 15px 40px gray;
+}
+.plus-icon:hover{
+   color: #ff408e;
+   cursor: pointer;
+}
+
+/* view more button */
+.view-more{
+    text-align: center;
+}
+.view-more-button{
+    border: 1px solid #ff408e;
+    width: 350px;
+    padding: 16px 0px;
+    color: #ff408e;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.view-more-button:hover{
+    background-color: #ff408e;
+    color: white;
+}
+
+/* create account section */
+.create-account{
+    background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/female_dad7cd.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+ .men-women a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 15px 0 15px;
+ }

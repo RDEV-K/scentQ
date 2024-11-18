@@ -1,0 +1,419 @@
+{
+    "Yes, Remove it!": "نعم، احذفه!",
+    "No, Keep it": "لا، احتفظ به",
+    "Added": "تمت الإضافة",
+    "Add To Queue": "أضف إلى القائمة",
+    "View more": "عرض المزيد",
+    "Added to your queue": "تمت الإضافة إلى قائمتك",
+    "Add": "أضف",
+    "My Order": "طلبي",
+    "Manage Subscription": "إدارة الاشتراك",
+    "Billing Information": "معلومات الفواتير",
+    "Shipping Information": "معلومات الشحن",
+    "Personal info": "المعلومات الشخصية",
+    "Rating & Reviews": "التقييم والمراجعات",
+    "Rating & Review": "التقييم والمراجعة",
+    "Change password": "تغيير كلمة المرور",
+    "Status": "الحالة",
+    "Next billing date": "تاريخ الفوترة القادم",
+    "Subscription frequency": "تكرار الاشتراك",
+    "Subscription plan": "خطة الاشتراك",
+    "Payment Problem. Your Card Was Declined. Please Update Your Billing Info.": "مشكلة في الدفع. تم رفض بطاقتك. يرجى تحديث معلومات الفوترة الخاصة بك.",
+    "Update": "تحديث",
+    "Payment Problem. Please Update Your Billing Info.": "مشكلة في الدفع. يرجى تحديث معلومات الفوترة الخاصة بك.",
+    "TRY THIS FRAGRANCE": "جرب هذا العطر",
+    "Loading...": "جار التحميل.",
+    "No Product Found": "لم يتم العثور على منتج",
+    "Load More": "تحميل المزيد",
+    "Add to Queue": "أضف إلى الطابور",
+    "Sorry! You can’t add the same product twice. %s is a discovery platform to help you find new products. Please choose another product, try something new that will delight you! You can order the same product again every %s months.": "عذرًا! لا يمكنك إضافة نفس المنتج مرتين. %s هو منصة اكتشاف لمساعدتك في العثور على منتجات جديدة. يرجى اختيار منتج آخر، جرب شيئًا جديدًا سيسعدك! يمكنك طلب نفس المنتج مرة أخرى كل %s شهور.",
+    "Finish": "إنهاء",
+    "Contact us": "اتصل بنا",
+    "Mail Inquiries": "استفسارات البريد",
+    "Business Inquiries": "استفسارات الأعمال",
+    "Customer Support": "دعم العملاء",
+    "Browse Collection": "تصفح المجموعة",
+    "FAQ": "الأسئلة الشائعة",
+    "Close": "إغلاق",
+    "Are your fragrances authentic?": "هل عطوركم أصلية؟",
+    "Discover new fragrances every": "اكتشف عطورًا جديدة كل",
+    "month for": "شهر ل",
+    "Store": "متجر",
+    "All Brands": "جميع العلامات التجارية",
+    "Shop Perfumes": "تسوق عطور",
+    "Shop Colognes": "تسوق كولونيا",
+    "Social Media": "وسائل التواصل الاجتماعي",
+    "About Us": "معلومات عنا",
+    "FAQs": "الأسئلة الشائعة",
+    "Privacy Policy": "سياسة الخصوصية",
+    "Terms And Conditions": "البنود والشروط",
+    "New Arrivals": "وصل حديثاً",
+    "Women": "نساء",
+    "Men": "رجال",
+    "Brands": "العلامات التجارية",
+    "Product Of Month": "منتج الشهر",
+    "Search scentq": "ابحث في سينتكيو",
+    "BROWSE PERFUME": "تصفح العطر",
+    "New": "جديد",
+    "Perfumes": "عطور",
+    "Colognes": "كولوجن",
+    "ACCOUNTS": "الحسابات",
+    "My Queue": "قائمتي",
+    "Buy Queue": "شراء القائمة",
+    "Tracking": "تتبع",
+    "Subscribe to ScentQ": "الاشتراك في سينت كيو",
+    "Retake Quiz": "إعادة الاختبار",
+    "SETTINGS": "الإعدادات",
+    "Ratings & Review": "التقييمات والمراجعات",
+    "Rating": "التقييم",
+    "Personal Info": "المعلومات الشخصية",
+    "Shipping Info": "معلومات الشحن",
+    "Change Password": "تغيير كلمة المرور",
+    "Log Out": "تسجيل الخروج",
+    "Login": "تسجيل الدخول",
+    "Your cart": "سلتك",
+    "total": "الإجمالي",
+    "Your cart is empty": "سلة التسوق فارغة",
+    "You are getting": "أنت تحصل على",
+    "on your first order": "في طلبك الأول",
+    "WHAT YOU ARE GETTING": "ما تحصل عليه",
+    "Remove": "إزالة",
+    "A month-to-month subscription to ScentQ. Billed monthly, renews automatically, and ships from our warehouse mid-month.": "اشتراك شهري في سينت كيو. يتم فوترته شهريًا، يجدد تلقائيًا، ويتم الشحن من مستودعنا منتصف الشهر.",
+    "Order": "طلب",
+    "Edit": "تحرير",
+    "This is your first 10ml fragrance. You can see any others and edit them, once you have subscribed.": "هذه عطرك الأول بحجم 10 مل. يمكنك رؤية العطور الأخرى وتحريرها بمجرد الاشتراك الخاص بك.",
+    "Free": "مجاني",
+    "ONE-TIME PURCHASE": "شراء مرة واحدة",
+    "Net Total": "الإجمالي الصافي",
+    "Subscription discount": "خصم الاشتراك",
+    "Offer applied to the first month only": "العرض مطبق على الشهر الأول فقط",
+    "Subscription shipping": "شحن الاشتراك",
+    "Always Free": "مجاني دائمًا",
+    "Ecommerce shipping": "شحن التجارة الإلكترونية",
+    "Shipping": "الشحن",
+    "Special Discount": "خصم خاص",
+    "TOTAL": "الإجمالي",
+    "You now qualify for": "أنت الآن مؤهل لـ",
+    "shipping": "الشحن",
+    "Add more": "إضافة المزيد",
+    "to get": "للحصول على",
+    "Checkout": "الدفع",
+    "And many more luxury brands to choose from.": "والعديد من العلامات التجارية الفاخرة للاختيار من بينها.",
+    "Edit quiz": "تحرير الاختبار",
+    "Get Started with A quiz": "ابدأ بالاختبار",
+    "Our Newsletter": "نشرتنا الإخبارية",
+    "Email Address": "عنوان البريد الإلكتروني",
+    "Subscribe": "الاشتراك",
+    "Subscribe to our newsletter": "الاشتراك في النشرة الإخبارية لدينا",
+    "APPLY": "تطبيق",
+    "Discount NOW": "الخصم الآن",
+    "Subscribe Now": "اشترك الآن",
+    "DISCOUNT": "الخصم",
+    "MINS": "دقائق",
+    "SECS": "ثواني",
+    "View All": "عرض الكل",
+    "Products shipping to": "المنتجات التي تشحن إلى",
+    "products in queue": "المنتجات في القائمة",
+    "Edit Queue": "تحرير القائمة",
+    "This just in": "هذا الآن",
+    "New arrivals": "وصولات جديدة",
+    "See All New Arrivals": "رؤية جميع الوصولات الجديدة",
+    "Resubscribe": "الاشتراك مرة أخرى",
+    "to get your next": "للحصول على القادم",
+    "Get an Exclusive": "احصل على حصري",
+    "off your next month when you resubscribe now.": "لشهرك القادم عند إعادة الاشتراك الآن.",
+    "Resubscribe Now": "الاشتراك مرة أخرى الآن",
+    "Indulge in new luxury brands every month": "استمتع بعلامات تجارية فاخرة جديدة كل شهر",
+    "Explore a world of": "استكشاف عالم",
+    "fragrance, with your first month priced at": "العطور، مع شهرك الأول بسعر",
+    "Ends in": "ينتهي في",
+    "minutes": "دقائق",
+    "seconds": "ثواني",
+    "TRY FIRST MONTH FOR": "فقط",
+    "Turn this": "حول هذا",
+    "regular retail price": "السعر العادي للبيع بالتجزئة",
+    "Into this": "إلى هذا",
+    "first month": "الشهر الأول",
+    "off": "خصم",
+    "Off": "خصم",
+    "a free case": "حافظة مجانية",
+    "Of Our Subscriber Prefer 2 Monthly Scents!": "من مشتركينا يفضلون رائحتين شهريًا!",
+    "Want even more product? Upgrade your plan to include two or three items a match, and save more on each order": "تريد المزيد من المنتجات؟ قم بترقية خطتك لتشمل عنصرين أو ثلاثة مطابقين، ووفر أكثر في كل طلبية",
+    "Product/Month": "المنتج/الشهر",
+    "Product": "المنتج",
+    "Current Plan": "الخطة الحالية",
+    "Total": "الإجمالي",
+    "Continue with": "متابعة مع",
+    "Products": "المنتجات",
+    "OFF": "خصم",
+    "Recommendations based on your quiz": "توصيات استنادًا إلى اختبارك",
+    "Edit Quiz": "تحرير الاختبار",
+    "Upcoming Shipment": "الشحنة القادمة",
+    "Products Shipping to": "المنتجات تُشحن إلى",
+    "Edit Address": "تحرير العنوان",
+    "Detail": "التفاصيل",
+    "order in queue": "الطلب في القائمة",
+    "aboutUs.title": "حول ScentQ",
+    "aboutUs.paragraph1": "هل واجهت يومًا مشكلة في اختبار وشراء عطر في المتجر، ثم أدركت بعد ذلك أن العطر لا يناسبك على الإطلاق؟ هذا بسبب أن اختبار العطور في المتجر لا يلتقط كيفية تطور العطر مع روتينك اليومي عندما تبدأ في ارتدائه. هل تجد نفسك أيضًا مقيدًا بعطرك؟",
+    "aboutUs.paragraph2": "هذا هو السبب وراء تأسيس ScentQ. ScentQ هو خدمة اشتراك شهري تسمح لك باختيار من بين مئات العطور الفاخرة وتوفير إمداد لمدة 30 يومًا مباشرة إلى باب منزلك، مما يجعل من الأسهل والأكثر متعة للأفراد استكشاف والتمتع بمجموعة متنوعة من الروائح وفقًا لتفضيلاتهم.",
+    "aboutUs.missionTitle": "مهمتنا",
+    "aboutUs.missionStatement": "بيان مهمة",
+    "whatMakeUsDifferent": "ما الذي يميزنا",
+    "fragranceDiscovery": "اكتشاف العطور",
+    "fragranceDiscoveryDescription": "وصف اكتشاف العطور",
+    "costlyFullSizedBottles": "زجاجات كاملة الحجم مكلفة",
+    "costlyFullSizedBottlesDescription": "تجنب الأخطاء المكلفة التي تتم باستخدام زجاجات العطور الكاملة الحجم.",
+    "convenience": "الراحة",
+    "convenienceDescription": "لا حاجة لحمل زجاجة عطر بحجم كامل.",
+    "personalization": "التخصيص",
+    "personalizationDescription": "وصف التخصيص",
+    "limitedAccessToNicheScents": "وصول محدود إلى الروائح النيش",
+    "limitedAccessToNicheScentsDescription": "وصف وصول محدود إلى الروائح النيش",
+    "meetTheFounder": "التعرف على المؤسس",
+    "anaxanimZeynalli": "أناخانيم زينالي",
+    "ceoAndFounder": "الرئيس التنفيذي لـ ScentQ ومؤسسها",
+    "anaxanimDescription": "وصف أناخانيم",
+    "orkhanRasulov": "أورخان راسولوف",
+    "CEOANDFounderofScentQ": "الرئيس التنفيذي ومؤسس ScentQ",
+    "orkhanDescription": "وصف أورخان",
+    "billingAndShippingTitle": "الفواتير والشحن",
+    "billingAndShippingDescription": "يجب إجراء جميع تحديثات الشحن قبل تاريخ الفاتورة لتلقي منتجك الجديد إلى العنوان المحدث",
+    "cardNumberEncryption": "تم تشفير جميع البيانات. رقم بطاقتك لا يتم تخزينه أبدًا على خوادم %s.",
+    "cardNumber": "رقم البطاقة",
+    "cardExp": "انتهاء صلاحية البطاقة",
+    "cardCVC": "رمز CVC للبطاقة",
+    "cardHolderName": "اسم حامل البطاقة",
+    "updateCard": "تحديث البطاقة",
+    "addANewShippingAddress": "إضافة عنوان شحن جديد",
+    "shipmentDetails": "تفاصيل الشحن",
+    "Full Name": "الاسم الكامل",
+    "Country": "البلد",
+    "Street Address": "عنوان الشارع",
+    "Apt (Opt)": "الشقة (اختياري)",
+    "Postal Code": "الرمز البريدي",
+    "Phone Number": "رقم الهاتف",
+    "currentCard": "البطاقة الحالية",
+    "selectCountry": "حدد البلد",
+    "selectState": "حدد الولاية",
+    "state": "الولاية",
+    "city": "المدينة",
+    "addNew": "إضافة جديدة",
+    "update": "تحديث",
+    "Title": "العنوان",
+    "Submit review": "إرسال التقييم",
+    "Other fragrances from this brand": "روائح أخرى من هذه العلامة التجارية",
+    "allBrandsTitle": "جميع العلامات التجارية",
+    "allBrandsDescription": "استكشاف مئات العلامات التجارية التي ستحبها!",
+    "All Scents": "جميع الروائح",
+    "All Categories": "جميع الفئات",
+    "All Sizes": "جميع الأحجام",
+    "All Prices": "جميع الأسعار",
+    "Price": "السعر",
+    "Quantity": "الكمية",
+    "Subtotal": "المجموع الفرعي",
+    "All Ratings": "جميع التقييمات",
+    "All Seasons": "جميع الفصول",
+    "establishedAt": "تأسست في:",
+    "products": "المنتجات",
+    "moreAbout": "المزيد عن",
+    "blog": "مدونة",
+    "getInTouchWithUS": "تواصل معنا",
+    "getInTouchWithUSDescription": "نقدر اهتمامك ونسعى جاهدين لتقديم خدمة استثنائية في خدمة العملاء. صفحتنا للاتصال تعمل كبوابة للتواصل بسهولة معنا إذا كان لديك أي أسئلة أو إذا كنت بحاجة إلى مساعدة في الطلب أو ترغب في مشاركة ملاحظاتك. يمكنك العثور على معلومات الاتصال الخاصة بنا أدناه، ونحن نتطلع إلى التحدث ومساعدتك.",
+    "Feedback": "تعليق",
+    "%s Feedbacks": "%s تعليقات",
+    "%s star": "%s نجمة",
+    "Upvotes": "تصويت إيجابي",
+    "Downvotes": "تصويت سلبي",
+    "%s products": "%s منتج",
+    "Review your product": "قيم منتجك",
+    "Tell us what you thought of this product!": "أخبرنا برأيك في هذا المنتج!",
+    "Tell us some specific details": "أخبرنا عن بعض التفاصيل الخاصة",
+    "exampleScent": "مثال: كانت الرائحة كما توقعت تمامًا. كانت منعشة للغاية، أحببتها كثيرًا وحصلت على الكثير من الإطراء!",
+    "Upgrade Plan": "ترقية الخطة",
+    "Filter By Rating": "تصفية حسب التقييم",
+    "Star": "نجمة",
+    "Filter By Brands": "تصفية حسب العلامات التجارية",
+    "Filter By Note": "تصفية حسب الملاحظة",
+    "Filter": "تصفية",
+    "SCENTBIRD GIFT SETS MEN": "هدايا سنتبيرد للرجال",
+    "SPOIL 'EM WITH RIDICULOUSLY": "عاملهم بشكل لا يصدق",
+    "AMAZING SCENTS": "روائح مذهلة",
+    "GIFT SETS FOR HIM": "هدايا له",
+    "GIFT SETS FOR HER": "هدايا لها",
+    "UNISEX GIFT SETS": "هدايا ثنائية الجنس",
+    "Add to cart": "أضف إلى السلة",
+    "MORE INFO": "مزيد من المعلومات",
+    "Card denied": "تم رفض البطاقة",
+    "Please change your payment method": "يرجى تغيير طريقة الدفع الخاصة بك",
+    "Change": "تغيير",
+    "Private Sale": "بيع خاص",
+    "Buy Bundle": "شراء الحزمة",
+    "getAccessTo1600Products": "الوصول إلى أكثر من 1600 منتج كل شهر!",
+    "Create your account": "أنشئ حسابك",
+    "Home": "الصفحة الرئيسية",
+    "Reviews": "التقييمات",
+    "%s Reviews": "%s تقييم",
+    "write a review": "كتابة تقييم",
+    "One-Time Purchase": "شراء مرة واحدة",
+    "Subscribe for": "الاشتراك ل",
+    "for your first month": "لشهرك الأول",
+    "for your second month.": "لشهرك الثاني.",
+    "About the Fragrance": "حول العطر",
+    "How It Works": "كيف يعمل",
+    "How To Use": "كيفية الاستخدام",
+    "Ingredients": "المكونات",
+    "Why We Love It": "لماذا نحبه",
+    "Disclaimer": "تنصل",
+    "Main Notes": "الملاحظات الرئيسية",
+    "Explore fragrances with": "استكشاف العطور مع",
+    "People Who Prefer :product Also Like": "الأشخاص الذين يفضلون :product أيضًا يحبون",
+    "PERFUME OF THE MONTH": "عطر الشهر",
+    "Buy Products From Your Queue — Save ⏰ And 💰": "شراء المنتجات من قائمة الانتظار الخاصة بك - وفر ⏰ و 💰",
+    "Your Queue": "قائمة الانتظار الخاصة بك",
+    "Your Cart": "عربة التسوق الخاصة بك",
+    "Buy now": "شراء الآن",
+    "Masculine": "ذكوري",
+    "Feminine": "أنثوي",
+    "Your answers of": "إجاباتك حول",
+    "and": "و",
+    "feel, we recommend these matches to your Fragrance Families.": "نوصي بتطابق هذه الروائح مع عائلات العطور الخاصة بك.",
+    "Unsubscribed successfully. Email: %s": "تم إلغاء الاشتراك بنجاح. البريد الإلكتروني: %s",
+    "New Password": "كلمة مرور جديدة",
+    "Current Password": "كلمة المرور الحالية",
+    "Confirm Password": "تأكيد كلمة المرور",
+    "Update Password": "تحديث كلمة المرور",
+    "WHAT YOU’RE GETTING...": "ما تحصل عليه...",
+    "Coupon Discount": "خصم الكوبون",
+    "Guaranteed Safe Checkout": "الدفع الآمن مضمون",
+    "Shipment Details": "تفاصيل الشحن",
+    "Add a new shipping address": "إضافة عنوان شحن جديد",
+    "Upgrade Your Subscription": "ترقية اشتراكك",
+    "Upgrade to two or three fragrances a month to discover more scents and save money": "قم بالترقية إلى عطرين أو ثلاثة عطور في الشهر لاكتشاف روائح أكثر وتوفير المال",
+    "Choose a subscription plan to upgrade": "اختر خطة اشتراك للترقية",
+    "No Plan Data Found !": "لم يتم العثور على بيانات الخطة!",
+    "Month Plan": "خطة الشهر",
+    "Products/Month": "المنتجات / الشهر",
+    "Subscription Setting": "إعداد الاشتراك",
+    "Canceling a subscription means ending recurring payments for a service or product. It can be done by contacting the service provider or through the subscription management platform. After canceling, access to content or services will end at the conclusion of the current billing cycle.": "إلغاء الاشتراك يعني إنهاء المدفوعات المتكررة لخدمة أو منتج. يمكن القيام بهذا عن طريق الاتصال بمزود الخدمة أو من خلال منصة إدارة الاشتراك. بعد الإلغاء ، سينتهي الوصول إلى المحتوى أو الخدمات في نهاية دورة الفوترة الحالية.",
+    "Order tracking & history": "تتبع الطلب والسجل",
+    "Your Order Is Creating!": "طلبك قيد الإنشاء!",
+    "Processing": "معالجة",
+    "Order placed": "تم وضع الطلب",
+    "View Detail": "عرض التفاصيل",
+    "Reviewed": "تم مراجعته",
+    "Write a Review": "كتابة تقييم",
+    "No subscription product history yet!": "لا توجد موجودات لمنتجات الاشتراك بعد!",
+    "Activate your subscription and add to your queue — you’ll be able to see your monthly fragrances here.": "قم بتنشيط اشتراكك وأضف إلى قائمة الانتظار الخاصة بك - ستتمكن من رؤية عطورك الشهرية هنا.",
+    "Your future purchases will live here": "مشترياتك المستقبلية ستكون هنا",
+    "Once your first delivery has shipped, the items you’ve purchased will show up here.": "بمجرد شحن أول تسليم لديك ، ستظهر العناصر التي قمت بشرائها هنا.",
+    "Personal Information": "المعلومات الشخصية",
+    "Upload Profile Picture": "تحميل صورة الملف الشخصي",
+    "Accepted formats: JPG or PNG only. Maximum file size: 5 MB.": "التنسيقات المقبولة: JPG أو PNG فقط. الحجم الأقصى للملف: 5 ميغابايت.",
+    "Crop Your Avatar": "قص الصورة الرمزية",
+    "Crop": "قص",
+    "Your benefits": "فوائدك",
+    "Over 1600 Fragrances to choose from, straight from the source": "أكثر من 1600 عطر للاختيار من بينها مباشرة من المصدر",
+    "Get personal recommendations based on scents you love": "احصل على توصيات شخصية استنادًا إلى الروائح التي تحبها",
+    "Flexible membership plans that cater to your lifestyle": "خطط عضوية مرنة تلبي أسلوب حياتك",
+    "Quick tips for customizing your queue": "نصائح سريعة لتخصيص قائمتك",
+    "Need to remove an item?": "هل تحتاج إلى إزالة عنصر؟",
+    "Is your queue empty?": "هل قائمتك فارغة؟",
+    "Edit your queue": "تعديل قائمتك",
+    "Remove a fragrance by hitting the X button to the right of the fragrance.The item below it will automatically move up one position.": "قم بإزالة عطر عن طريق النقر على زر X إلى اليمين من العطر. سيتم نقل العنصر أدناه تلقائيًا إلى أعلى مكان بموقع واحد.",
+    "Not to worry. If a fragrance isn't selected in your queue for a specific month, we'll send you the featured perfume or cologne of the month.": "لا داعي للقلق. إذا لم يتم تحديد عطر في قائمتك لشهر معين ، فسنرسل لك عطر الشهر المميز أو ماء الكولونيا المميز للشهر.",
+    "Switch the order of your items by holding down the two lines on the right side, then dragging the product to move it accordingly.": "قم بتغيير ترتيب عناصرك عن طريق الضغط على الخطين على الجانب الأيمن ، ثم سحب المنتج لنقله وفقًا لذلك.",
+    "No Rating & Review Found.": "لم يتم العثور على تقييم أو مراجعة.",
+    "View More Review": "عرض المزيد من التقييمات",
+    "Edit your feedback": "تعديل ملاحظاتك",
+    "Update review": "تحديث التقييم",
+    "Your choice of one 10ml": "اختيارك لعبوة 10 مل",
+    "For Resubscription User": "لمستخدم إعادة الاشتراك",
+    "Enter Your Credit Card Details": "أدخل تفاصيل بطاقة الائتمان الخاصة بك",
+    "Card Holder Name": "اسم حامل البطاقة",
+    "Card Number": "رقم البطاقة",
+    "Card Exp": "انتهاء البطاقة",
+    "Card CVC": "رمز التحقق من البطاقة (CVC)",
+    "Have a coupon code?": "هل لديك كود خصم؟",
+    "Track Order": "تتبع الطلب",
+    "Total Items": "مجموع العناصر",
+    "Total Amount": "المبلغ الإجمالي",
+    "Ships To": "تشحن إلى",
+    "Courier Tracking Details": "تفاصيل تتبع البريد",
+    "Tracking No": "رقم التتبع",
+    "Tracking Url": "رابط التتبع",
+    "Sign in with :s1 Facebook :s2": "تسجيل الدخول مع :s1 Facebook :s2",
+    "Sign in with :s1 Google :s2": "تسجيل الدخول مع :s1 Google :s2",
+    "Sign me up for updates from": "اشترك في التحديثات من",
+    "Sign Up with :s1 Facebook :s2": "الاشتراك مع :s1 Facebook :s2",
+    "Sign Up with :s1 Google :s2": "الاشتراك مع :s1 Google :s2",
+    "Saved preferences just create account": "التفضيلات المحفوظة فقط أنشئ حسابًا",
+    "or quickly Sign up with": "أو سجل الدخول بسرعة باستخدام",
+    "Log in": "تسجيل الدخول",
+    "Password": "كلمة المرور",
+    "Forgot your password?": "هل نسيت كلمة المرور؟",
+    "Don’t have an account?": "ليس لديك حساب؟",
+    "Log In": "تسجيل الدخول",
+    "or quickly login with": "أو تسجيل الدخول بسرعة باستخدام",
+    "Saved preferences :s just create account": "التفضيلات المحفوظة :s أنشئ حسابًا",
+    "Create account": "إنشاء حساب",
+    "Select your gender": "اختر جنسك",
+    "Female": "أنثى",
+    "Male": "ذكر",
+    "Sign me up for updates from :s": "اشترك في التحديثات من :s",
+    "Sign Up": "الاشتراك",
+    "By hitting the Sign up button, you agree to the Terms and conditions and privacy policy": "بالنقر فوق زر الاشتراك ، أنت توافق على الشروط والأحكام وسياسة الخصوصية",
+    "Pay :total": "ادفع :total",
+    "Explore a world of 1600 fragrances, with your monthly priced at": "استكشف عالمًا من العطور المكون من 1600 عطر ، بسعر شهري",
+    "Subscription Type": "نوع الاشتراك",
+    "Confirm": "تأكيد",
+    "Pick Your Scent": "اختر رائحتك",
+    "Should this slot be empty, we will deliver our specially curated Fragrance of the Month to you.": "في حال كانت هذه الفتحة فارغة ، سنقوم بتسليم عطر الشهر الخاص بنا المختار بعناية لك.",
+    "All data is encrypted. Your card number is never stored on :app_name servers.": "تتم مشفرة جميع البيانات. رقم بطاقتك لا يتم تخزينه أبدًا على خوادم :app_name.",
+    "Want to try something else?": "هل تريد تجربة شيء آخر؟",
+    "Add one of our best sellers for your first shipment.": "أضف واحدة من أفضل منتجاتنا للشحنة الأولى الخاصة بك.",
+    "LET'S TRY THIS": "لنجرب هذا",
+    "Continue": "متابعة",
+    ":s List": "قائمة :s",
+    "Here’s how to get it:": "إليك كيفية الحصول عليه:",
+    "Pick Your Favorite scent": "اختر عطرك المفضل",
+    "Choose what you'd like to try from our best sellers — you'll get access to our full catalog after subscribing.": "اختر ما ترغب في تجربته من أفضل مبيعاتنا - ستحصل على وصول إلى كتالوجنا الكامل بعد الاشتراك.",
+    "Activate Your Subscription": "قم بتفعيل اشتراكك",
+    "Dressed in a sleek, refillable case, our 10 mL bottles hold roughly 175 sprays each, and should last until your next order.": "ملابسنا في حافظة أنيقة وقابلة لإعادة الاستخدام ، تحتوي زجاجاتنا سعة 10 مل تقريبًا على حوالي 175 رشة لكل منها ، ويجب أن تدوم حتى طلبك التالي.",
+    "Receive Your Fragrance": "استلم عطرك",
+    "We'll throw in a free fragrance case with your first order. Cancel anytime without consequences.": "سنقدم لك حافظة عطر مجانية مع طلبك الأول. يمكنك إلغاء الاشتراك في أي وقت دون عواقب.",
+    "Feeling Mysterious? Relaxed? Flirty?": "هل تشعر بالغموض؟ هل تشعر بالاسترخاء؟ هل تشعر بالمرح؟",
+    "Take our quiz and we’ll match your persona to fragrances tailored just for you.": "خذ استطلاعنا وسنُطابق شخصيتك مع عطور مصممة خصيصًا لك.",
+    "Select our best-sellers": "اختر أفضل مبيعاتنا",
+    "Unlock 1600 Products Every Month - Join Now!": "فتح 1600 منتج كل شهر - انضم الآن!",
+    "How do I cancel my subscription?": "كيف يمكنني إلغاء اشتراكي؟",
+    "What is ScentQ?": "ما هو سينت كيو؟",
+    "ScentQ is a luxury fragrance subscription service that sends 10 mL of 30-day supply of a designer fragrance of your choice just for 19.99/month.": "سينت كيو هو خدمة اشتراك في العطور الفاخرة التي ترسل 10 مل من إمدادات 30 يومًا من عطر المصمم الذي تختاره مقابل 19.99 دولار في الشهر فقط.",
+    "What is the queue and how does it work?": "ما هو الطابور وكيف يعمل؟",
+    "As a ScentQ subscriber, you have complete control over the contents of your monthly shipment. You can easily select items from our collection and arrange them in the order you prefer within your queue. After that, we handle the rest.  Once your order enters the processing phase, changes cannot be made, as it is being prepared for shipment. However, you are welcome to adjust your queue for future month's shipments at any time!": "بصفتك مشتركًا في سينت كيو ، لديك السيطرة الكاملة على محتويات شحنتك الشهرية. يمكنك بسهولة تحديد العناصر من مجموعتنا وترتيبها في الترتيب الذي تفضله ضمن طابورك. بعد ذلك ، نتولى البقية. بمجرد دخول طلبك في مرحلة المعالجة ، لا يمكن إجراء تغييرات ، حيث يتم إعداده للشحن. ومع ذلك ، يُرحب بك بضبط طابورك لشحنات الأشهر القادمة في أي وقت!",
+    "Does ScentQ charge sales tax?": "هل سينت كيو تفرض ضريبة المبيعات؟",
+    "How can I view the products that I've rated?": "كيف يمكنني عرض المنتجات التي قمت بتقييمها؟",
+    "Experiencing Website Issues?": "هل تواجه مشاكل في الموقع؟",
+    "ScentQ's Fragrance Collection": "مجموعة عطور سينت كيو",
+    "Can't Find Your Desired Scent?": "لا يمكن العثور على العطر الذي ترغب به؟",
+    "How do I update my profile information?": "كيف يمكنني تحديث معلومات ملف التعريف الخاص بي؟",
+    "When can I expect to be billed for my subscription?": "متى يمكنني توقع أن يتم فوترتي للاشتراك؟",
+    "Modifying Your Queued Product": "تعديل المنتج في قائمة الانتظار",
+    "How can I upgrade my plan?": "كيف يمكنني ترقية خطتي؟",
+    "How can I view or change my subscription plan?": "كيف يمكنني عرض أو تغيير خطة الاشتراك الخاصة بي؟",
+    "What will happen if I leave my queue empty?": "ماذا سيحدث إذا تركت طابوري فارغًا؟",
+    "Refund Policy": "سياسة الاسترداد",
+    "What are my subscription options?": "ما هي خيارات اشتراكي؟",
+    "How can I view my one-time purchase history?": "كيف يمكنني عرض تاريخ مشترياتي لمرة واحدة؟",
+    "How can I view my subscription purchase history?": "كيف يمكنني عرض تاريخ مشتريات اشتراكي؟",
+    "When will I receive my perfume?": "متى سأتلقى عطري؟",
+    "Where can I find my billing date?": "أين يمكنني العثور على تاريخ الفوترة الخاص بي؟",
+    "I just placed an order! When will it ship?": "لقد وضعت للتو طلبًا! متى سيتم شحنه؟",
+    "How do I update my shipping address?": "كيف يمكنني تحديث عنوان الشحن الخاص بي؟",
+    "I’m ready to place an order. When will I be charged?": "أنا مستعد لوضع طلب. متى سيتم محاسبتي؟",
+    "What should I do about a damaged product?": "ماذا يجب أن أفعل بشأن منتج تالف؟",
+    "When can I expect my scent to arrive in my mailbox?": "متى يمكنني توقع وصول العطر إلى صندوق بريدي؟",
+    "Help! I never received my product!": "مساعدة! لم أستلم منتجي أبدًا!",
+    "How do I track my order?": "كيف يمكنني تتبع طلبي؟",
+    "Selected" : "المحدد",
+    "Month" : "شهر"
+}

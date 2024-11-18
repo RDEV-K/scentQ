@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="3yjbn54lpa">
+            <path data-name="Rectangle 367" transform="translate(46 466)" style="stroke:#707070;fill:#fff" d="M0 0h20v20H0z"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(-46 -466)" style="clip-path:url(#3yjbn54lpa)">
+        <path data-name="Path 4265" d="M.833 3.958h2.28a3.107 3.107 0 0 0 6 0h10.053a.833.833 0 0 0 0-1.667H9.109a3.107 3.107 0 0 0-6 0H.833a.833.833 0 1 0 0 1.667zm5.278-2.291a1.458 1.458 0 1 1-1.459 1.458 1.458 1.458 0 0 1 1.459-1.458z" style="fill:#fff" transform="translate(46 466)"/>
+        <path data-name="Path 4266" d="M19.166 9.166h-2.28a3.106 3.106 0 0 0-5.995 0H.833a.833.833 0 0 0 0 1.667h10.058a3.106 3.106 0 0 0 5.995 0h2.28a.833.833 0 0 0 0-1.667zm-5.277 2.292A1.458 1.458 0 1 1 15.347 10a1.458 1.458 0 0 1-1.458 1.458z" style="fill:#fff" transform="translate(46 466)"/>
+        <path data-name="Path 4267" d="M19.166 16.041H9.109a3.107 3.107 0 0 0-6 0H.833a.833.833 0 0 0 0 1.667h2.28a3.107 3.107 0 0 0 6 0h10.053a.833.833 0 0 0 0-1.667zM6.111 18.333a1.458 1.458 0 1 1 1.458-1.458 1.458 1.458 0 0 1-1.458 1.458z" style="fill:#fff" transform="translate(46 466)"/>
+    </g>
+</svg>

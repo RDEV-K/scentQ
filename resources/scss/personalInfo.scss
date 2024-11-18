@@ -1,0 +1,45 @@
+@import "functions";
+@import "variables";
+@import "mixins";
+
+.personal-info {
+  margin-top: 2.125rem;
+}
+
+.personal-info .form-group-material input {
+  margin-bottom: 16px;
+}
+
+form.personal-info label[for="gender"] {
+  display: block;
+  font-family: 'TT Norms Pro', sans-serif;
+  color: #5d5d5d;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+.gender {
+  display: flex;
+  gap: 45px;
+  align-items: center;
+
+  label {
+    cursor: pointer;
+    font-family: "TT Norms Pro", sans-serif;
+    font-size: 17px;
+    color: $black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  input[type="radio"] {
+    accent-color: $black;
+  }
+}
+
+.personal-info .btn-save {
+  margin-top: 44px;
+}
+
+// @include media-breakpoint-down(sm) {}

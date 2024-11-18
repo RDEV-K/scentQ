@@ -1,0 +1,76 @@
+body{
+    background-color: #f9f9f9;
+    overflow-x: hidden;
+}
+
+ .personal-text p{
+     font-weight: 500;
+ }
+.personal-info{
+   color: #ff408e !important;
+}
+.order-info{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.order-info:hover{
+    color: #ff408e;
+}
+.save-button button{
+    border: none;
+    background-color: #ff408e;
+    color: white;
+    font-weight: 600;
+}
+.personal-input{
+    box-shadow: none!important;
+}
+.form-input-ce{
+    font-size: 20px;
+}
+.form-input-ce:checked{
+    background-color: #ff408e;
+    border: 1px solid #ff408e!important;
+}
+
+.tab-button{
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    border: none;
+    background-color: #f9f9f9;
+
+}
+.tab-button.active{
+    border-bottom: 2px solid #ff408e;
+}
+
+/* shipping-form */
+
+.amazon-payment-btn{
+    background-color: #fad676;
+    width: 300px;
+    border: none;
+}
+.paypal-payment-btn{
+    width: 300px;
+    border: none;
+    background-color: #2b70b6;
+    padding-top: 5px;
+    padding-bottom: 6px;
+}
+.payment-submit input{
+    width: 100%;
+    border: none;
+    background-color: #ff408e;
+    font-weight: 600;
+    color: white;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 20px;
+}
+.payment-submit input:hover{
+    background-color: #ff5fa0;
+    transition: 0.9s;
+}

@@ -1,0 +1,274 @@
+@import "functions";
+@import "variables";
+@import "mixins";
+
+// buy Queue section
+section.buy-queue {
+  margin-top: 3.75rem;
+
+  h2 {
+    color: $black;
+    text-transform: capitalize;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'TT Norms Pro', sans-serif;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-family: 'TT Norms Pro', sans-serif;
+    color: #313131;
+    font-size: 17px;
+    margin: 0;
+  }
+}
+
+.cart-row,
+.cart-row-mobile {
+  margin: 45px 0 0 0;
+
+  h6 {
+    color: $black;
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'TT Norms Pro',
+    sans-serif;
+    margin: 0;
+  }
+}
+
+.cart-actions {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  gap: 24px;
+  margin-top: 38px;
+
+  a.btn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+// buy Queue section
+
+// queue purchase style
+.queue-purchase {
+  position: relative;
+  // width: 180px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: $white;
+}
+
+.queue-purchase img.queue-cancel {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 24px;
+}
+
+.queue-purchase img.queue-product-image {
+  width: 100px;
+}
+
+.queue-purchase.queue-lock img {
+  width: 24px;
+}
+
+.queue-purchase.queue-lock p {
+  padding: 10px 0;
+}
+
+// queue purchase style
+
+// queue product style
+section.queue-products {
+  margin: 100px 0 56px 0;
+
+  h3 {
+    color: $black;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'TT Norms Pro', sans-serif;
+    margin-bottom: 20px;
+  }
+}
+
+// queue product style
+
+// queue product card style
+
+.single-queue-product {
+  margin-bottom: 44px;
+}
+
+.single-queue-product .queue-product-img {
+  height: 266px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $white;
+  border: 1px solid transparent;
+  transition: 0.3s;
+  position: relative;
+  cursor: pointer;
+}
+
+.single-queue-product .queue-product-img .queue-btn-box {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  button {
+    height: 46px;
+    width: 46px;
+  }
+}
+
+.single-queue-product .queue-product-img .queue-btn-box a.btn:after {
+  display: none;
+}
+
+.single-queue-product .queue-product-img div.img-thumbnail img {
+  max-width: 150px !important;
+}
+
+.single-queue-product h5 {
+  color: #000000;
+  font-size: 20px;
+  line-height: 27px;
+  font-family: 'TT Norms Pro',
+  sans-serif;
+  margin-bottom: 0;
+}
+
+.single-queue-product p {
+  color: #959595;
+  font-size: 17px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.single-queue-product .queue-product-img .queue-btn-box a.btn {
+  padding: 12px;
+}
+
+.queue-product-img.selected-queue,
+.queue-product-img:hover {
+  border: 2px solid #34895c;
+}
+
+.queue-product-img.selected-queue .queue-btn-box button {
+  background-color: #34895c;
+}
+
+.queue-product-img.selected-queue .queue-btn-box a.btn,
+.queue-product-img:hover .queue-btn-box a.btn {
+  background-color: #34895c !important;
+}
+
+.queue-product-img .queue-btn-box a.btn.check-icon {
+  display: none;
+  transition: 0.4s;
+}
+
+.queue-product-img.selected-queue .queue-btn-box a.btn.check-icon,
+.queue-product-img:hover .queue-btn-box a.btn.check-icon {
+  display: block;
+}
+
+.queue-product-img .queue-btn-box a.btn.queue-icon {
+  display: block;
+  transition: 0.4s;
+}
+
+.queue-product-img.selected-queue .queue-btn-box a.btn.queue-icon,
+.queue-product-img:hover .queue-btn-box a.btn.queue-icon {
+  display: none;
+}
+
+// queue product card style
+
+@include media-breakpoint-down(lg) {
+  section.queue-products {
+    margin: 60px 0 15px 0;
+  }
+
+  .single-queue-product h5 {
+    font-size: 18px;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  section.buy-queue p {
+    font-size: 15px;
+  }
+
+  .cart-row-mobile h6 {
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 12px;
+  }
+
+  .queue-purchase {
+    // width: 180px;
+    height: 120px;
+    margin: 10px;
+  }
+
+  .queue-purchase img.queue-cancel {
+    width: 18px;
+  }
+
+  .cart-actions {
+    margin: 0;
+
+    p {
+      font-size: 17px !important;
+    }
+  }
+
+  section.queue-products {
+    margin: 52px 0 36px 0;
+
+    h3 {
+      line-height: 25px;
+      font-family: 'TT Norms Pro',
+      sans-serif;
+      margin-bottom: 20px;
+    }
+  }
+
+  .single-queue-product {
+    margin-bottom: 22px;
+
+    h5 {
+      font-size: 1rem;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: normal;
+    }
+
+    .queue-product-img {
+      height: 225px;
+      margin-bottom: 12px;
+    }
+
+    .queue-product-img .queue-btn-box a.btn {
+      padding: 0.5rem;
+
+      img {
+        width: 1rem;
+      }
+    }
+  }
+}

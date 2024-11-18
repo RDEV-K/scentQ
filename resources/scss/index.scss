@@ -1,0 +1,283 @@
+@import "functions";
+@import "variables";
+@import "mixins";
+
+/* Feeling Mysterious Section */
+.mysterious-feeling {
+  position: relative;
+  overflow: hidden;
+
+  .mysterious-feeling-background img {
+    width: 100%;
+  }
+
+  .mysterious-feeling-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .mysterious-feeling-content .container,
+  .mysterious-feeling-content .d-flex {
+    width: 100%;
+  }
+
+  .mysterious-feeling-content-container {
+    max-width: 515px;
+  }
+
+  h3 {
+    font-size: 50px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: start;
+    color: #000;
+    margin-bottom: 20px;
+    font-family: 'TT Norms Pro', sans-serif;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: start;
+    color: #313131;
+    margin-bottom: 70px;
+  }
+
+  .btn {
+    text-transform: uppercase;
+    font-family: 'TT Norms Pro', sans-serif;
+  }
+}
+
+.note-image {
+  margin-bottom: 5px;
+  width: 60px;
+  height: 60px;
+  border: 0px !important;
+  // border: 1px solid #efefef;
+  // border-radius: 50%;
+  background: var(--secondary) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// call-to-action
+.call-to-action {
+  background-repeat: no-repeat;
+  background-position: center center;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.call-to-action-container {
+  max-width: 632px;
+  padding: 144px 0 143px 0;
+
+  h2 {
+    text-align: start;
+    font-size: 60px;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: capitalize;
+    margin-bottom: 47px;
+    font-family: 'TT Norms Pro', sans-serif;
+    font-weight: 600;
+  }
+}
+
+// call-to-action
+
+// offcanvas
+.index-offcanvas {
+  padding: 35px 20px;
+}
+
+.offcanvas {
+  top: 0;
+  width: 648px;
+  z-index: 999999999;
+  right: 0;
+}
+
+.index-offcanvas .offcanvas-header h5 {
+  text-align: start;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: bold;
+  font-stretch: normal;
+  font-size: 25px;
+  line-height: 55px;
+  font-family: 'TT Norms Pro', sans-serif;
+}
+
+.index-offcanvas .offcanvas-body h1 {
+  text-align: start;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: capitalize;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: bold;
+  font-stretch: normal;
+  font-size: 50px;
+  line-height: 65px;
+  font-family: 'TT Norms Pro', sans-serif;
+  margin-bottom: 70px;
+}
+
+// .index-offcanvas {
+// 	background: url(../images/bg/gift_subscription_BG_Img/gift_subscription_BG_Img.png) no-repeat center center;
+// 	background-position: right top;
+// }
+// offcanvas
+
+.landing-nav {
+  padding: 0 89px;
+  height: 82px;
+  background-color: rgba($color: #fff, $alpha: 1);
+  display: block;
+}
+
+.landing-nav-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+}
+
+.landing-nav .icon {
+  text-align: end;
+}
+
+.landing-nav .icon img {
+  transform: translateX(50%);
+}
+
+.landing-nav input+.btn,
+.landing-nav form+.btn {
+  margin-inline-start: 18px;
+}
+
+@include media-breakpoint-down(xxl) {
+  .mysterious-feeling h3 {
+    font-size: 40px;
+  }
+
+  .mysterious-feeling p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+}
+
+@include media-breakpoint-down(xl) {
+  .landing-nav .icon img {
+    transform: unset;
+  }
+
+  .landing-nav {
+    padding: 0 44px;
+  }
+
+  .landing-nav .icon {
+    text-align: start;
+  }
+}
+
+@include media-breakpoint-down(xl) {
+
+  .mysterious-feeling-content,
+  .landing-hero-content {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+@include media-breakpoint-down(md) {
+  // .landing-nav-right {
+  //     display: none;
+  // }
+
+  .landing-nav .icon {
+    text-align: center;
+  }
+
+  .mysterious-feeling {
+    h3 {
+      font-family: "TT Norms Pro", sans-serif;
+      font-size: 40px;
+    }
+
+    p {
+      margin-bottom: 30px;
+    }
+
+    .mysterious-feeling-background {
+      height: auto;
+    }
+
+    .mysterious-feeling-content {
+      position: static;
+      padding: 37px 0;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .how-to-btn {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .mysterious-feeling {
+    background: none;
+
+    h3 {
+      font-family: "TT Norms Pro", sans-serif;
+      font-size: 25px;
+      line-height: 35px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      font-family: 'TT Norms Pro', sans-serif;
+      font-size: 15px;
+      line-height: 22px;
+      text-align: start !important;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.product-rating {
+  display: flex;
+}
+
+.filter-box .filter-item label,
+.filter-box .filter-item label span {
+  display: flex;
+}
+
+img {
+  display: inline-block;
+}

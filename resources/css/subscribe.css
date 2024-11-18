@@ -1,0 +1,87 @@
+.shipment-bg {
+  height: 100%;
+  background-color: #f9f9f9;
+}
+
+.shipping-car {
+  color: #ff408e;
+}
+
+.product-edit {
+  border: 1px solid #dcdfe5;
+}
+
+.month-subscription {
+  border-bottom: 1px solid #dcdfe5;
+}
+
+.discount-price {
+  color: #ff408e;
+  font-weight: 600;
+}
+
+.tax {
+  font-weight: 600;
+}
+
+.total-price {
+  text-align: end;
+}
+
+.coupon button {
+  border: none;
+  background-color: #ff408e;
+  color: white;
+  font-weight: 600;
+}
+
+.amazon-payment-btn {
+  background-color: #fad676;
+  width: 300px;
+  border: none;
+}
+
+.paypal-payment-btn {
+  width: 300px;
+  border: none;
+  background-color: #2b70b6;
+  padding-top: 5px;
+  padding-bottom: 6px;
+}
+
+.payment-submit button {
+  width: 100%;
+  border: none;
+  background-color: #ff408e;
+  font-weight: 600;
+  color: white;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-size: 20px;
+}
+
+.payment-submit button:hover {
+  background-color: #ff5fa0;
+  transition: 0.9s;
+}
+
+/* Padding for Stripe Element containers */
+.stripe-element-container {
+  padding-top: .55rem;
+  padding-bottom: .50rem;
+}
+
+/* Blue outline on focus */
+.StripeElement--focus {
+  border-color: #80BDFF;
+  outline: 0;
+  box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+/* Can't see what I type without this */
+#card-number.form-control,
+#card-cvc.form-control,
+#card-exp.form-control {
+  display: inline-block;
+}

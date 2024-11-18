@@ -1,0 +1,119 @@
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+._3HQfIb:last-child {
+    padding-right: 16px;
+}
+
+._3HQfIb._2VR5Oa {
+    padding-inline-start: 16px;
+}
+
+._3HQfIb {
+    height: 48px;
+    font-size: 18px;
+}
+
+/* checkbox */
+._1t2zmy {
+    display: flex;
+    cursor: pointer;
+}
+
+._3BcAEw {
+    font-weight: 600;
+}
+
+._1Y8L7H {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+._1Y8L7H span:hover {
+    color: #ff408e;
+    text-decoration: none;
+}
+
+.small-text {
+    color: #ff408e;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.input-submit {
+    width: 100%;
+    height: 60px;
+    border: none;
+    background-color: #ff408e;
+    color: white;
+    font-weight: 600;
+}
+
+.input-submit:hover {
+    background-color: #ff5fa0;
+    transition: 0.9s;
+}
+
+.have-account {
+    font-weight: 600;
+}
+
+.social-login-btn {
+    width: 100%;
+    height: 55px;
+    font-weight: 600;
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .12), 0 2px 2px 0 rgba(0, 0, 0, .24)
+}
+
+.social-login-btn:hover {
+    box-shadow: 0px 3px 15px gray;
+    transition: 0.3s all;
+}
+
+.social-btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.login-apple-button {
+    width: 100%;
+    height: 55px;
+    font-weight: 600;
+    background-color: white;
+    border: 1px solid black;
+}
+
+._2Gnxyw {
+    color: #ff408e;
+}
+
+.radio-input-s + img + div {
+    display: none;
+}
+
+.radio-input-s:checked + img + div {
+    display: inline-block;
+}
+
+.radio-input-s:checked + img + div + div {
+    color: #ff408e;
+}
+
+._3zcqCj {
+    margin-top: 6px;
+}
+
+span.small-text a {
+    color: #ff408e;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar-brand img {
+    max-height: 43px;
+}
